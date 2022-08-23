@@ -1,8 +1,16 @@
 import React from 'react'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 
 const faq = () => {
   return (
-    <div>faq</div>
+    <div>
+      <Header/>
+        <main>
+          
+        </main>
+      <Footer/>
+    </div>
   )
 }
 

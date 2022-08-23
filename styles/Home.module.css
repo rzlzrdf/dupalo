@@ -1,5 +1,98 @@
 
-.main {
+.container {
   min-height: 100vh;
+  /* background-color: red; */
   text-decoration: none;
+}
+
+.hero2{
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero21{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dupa{
+  width: 100%;
+  box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.42);
+-moz-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.42);
+}
+
+.hero22{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cek{
+  font-size: large;
+  margin-right: 10px;
+}
+
+.about{
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.about1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 3%;
+}
+
+.logo{
+  order: 2;
+}
+.about2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.find{
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find_card{
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D4C2A8;
+  border-radius: 20px;
+}
+
+.find_card p{
+  width: 40%;
+  text-align: center;
+}
+
+.find_card a{
+  border: 1px solid #D4C2A8;
+  border-radius: 50px;
+  background-color: #4F4F4F;
+  color: white;
+  font-weight: 500;
+  padding: 10px 16px;
+}
+
+@media screen and (max-width: 992px) {
+  .about1{
+    order: 2;
+  }
+  .about2{
+    order: 1;
+  }
 }

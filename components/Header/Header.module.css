@@ -1,0 +1,16 @@
+.links{
+     text-decoration: none;
+}
+.nav{
+     gap: 10%;
+     height: 10vh;
+     /* font-weight: 500; */
+     background: transparent;
+}
+
+.lang{
+     border: none;
+     font-size: 1em;
+     font-weight: 500;
+     width: 6.5%;
+}
