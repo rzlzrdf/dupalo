@@ -17,6 +17,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Dupalo | Homepage</title>
+        <meta name="viewport" content="width=device-width inital-scale=1" />
         <meta name="description" content="Dupalo Official Website" />
         <link rel="icon" href="/logo.png" />
       </Head>
