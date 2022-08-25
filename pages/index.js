@@ -49,7 +49,7 @@ export default function Home() {
       <section className={styles.hero2}>
         <Container>
           <Row>
-            <Col lg={6} md={12} className={styles.hero21}>
+            <Col lg={6} md={12} sm={12} className={styles.hero21}>
               <Image src={'/dupa.png'} alt='dupalo'width={300} height={300} className={styles.dupa}/>
             </Col>
             <Col lg={6} md={12} className={styles.hero22}>
@@ -69,7 +69,7 @@ export default function Home() {
         <Container>
           <Row>
             <Col lg={6} md={12} className={styles.about1}>
-              <h3 className='mb-4 fw-bold'>Tentang Kami</h3>
+              <h3 className={'mb-4 fw-bold '}>Tentang Kami</h3>
               <article>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn`t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</article>
             </Col>
             <Col lg={6} md={12} className={styles.about2}>

@@ -50,6 +50,7 @@
   padding: 3%;
 }
 
+
 .logo{
   order: 2;
 }
@@ -89,6 +90,19 @@
 }
 
 @media screen and (max-width: 992px) {
+
+  .hero21{
+    margin-bottom: 40px;
+  }
+
+  
+.about1 h3{
+  display: none;
+}
+
+  .dupa{
+    width: 30px;
+  }
   .about1{
     order: 2;
   }

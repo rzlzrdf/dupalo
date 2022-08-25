@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import style from './Header.module.css'
-import { Navbar, Container, Dropdown, DropdownButton, Form } from 'react-bootstrap'
+import { Navbar, Container, Dropdown, DropdownButton, Form, Button, Offcanvas } from 'react-bootstrap'
 import Link from 'next/link'
 import {AiOutlineGlobal} from 'react-icons/ai'
+import {BiMenuAltRight} from 'react-icons/bi'
 
 const Header = () => {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
      <Navbar className={style.nav}>
      <Container>
@@ -21,6 +28,25 @@ const Header = () => {
             <option value="2">EN</option>
           </Form.Select>
        </Navbar.Collapse>
+       <Button variant="white" onClick={handleShow} className={style.mobnav}>
+          <BiMenuAltRight size={40}/>
+       </Button>
+
+       <Offcanvas show={show} onHide={handleClose} placement={'end'}>
+          <Offcanvas.Header closeButton className='mx-4'>
+            <Offcanvas.Title><Link href='/'><Image src={'/logo.png'} width={100} height={60} alt='logo-dupalo'/></Link></Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body className='d-flex justify-content-start flex-column gap-5 fs-3 fw-bold m-4'>
+            <Link href='/'>Beranda</Link>
+            <Link href='/katalog'>Katalog</Link>
+            <Link href='/testimonial'>Testimonial</Link>
+            <Link href='/katalog'>FAQ</Link>
+            <div className='d-flex justify-content-center gap-4 mt-4'>
+              <Link href='#'><img src='/indonesia.png' alt='id' className={style.languange}/></Link> 
+              <Link href='#'><img src='/uk.png' alt='uk' className={style.languange}/></Link> 
+            </div>
+          </Offcanvas.Body>
+       </Offcanvas>
      </Container>
    </Navbar>
   )

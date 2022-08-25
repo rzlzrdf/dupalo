@@ -6,6 +6,7 @@
      height: 10vh;
      /* font-weight: 500; */
      background: transparent;
+     margin-bottom: 5%;
 }
 
 .lang{
@@ -13,4 +14,27 @@
      font-size: 1em;
      font-weight: 500;
      width: 6.5%;
+}
+
+.mobnav{
+     display: none;
+}
+
+@media screen and (max-width: 992px) {
+     .mobnav{
+          display: block;
+          font-size: 20px;
+     }
+     
+     .links a{
+          display: none;
+     }
+
+     .languange{
+          width: 35px;
+     }
+     
+     .links select{
+          display: none;
+     }
 }
