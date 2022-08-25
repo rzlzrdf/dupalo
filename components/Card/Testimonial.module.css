@@ -1,18 +1,36 @@
 .container{
-     background-color: #FFF8ED;
-     border: none;
-     color: black;
-     width: 500px;
-     height: 250px;
+     background-color: white;
+     width: 300px;
+     height: 400px;
      display: flex;
-     flex-direction: row;
      justify-content: center;
      align-items: center;
-     padding: 2%;
+     padding: 1%;
+     border-radius: 20px;
 }
-.left{
-     width: 30%;
+.gambar{
+     width: 80%;
+     height: 10%;
+     display: flex;
+     justify-content: start;
+     align-items: center;
 }
-.right{
-     width: 70%;
+
+.quote{
+     width: 90%;
+     height: 50%;
+     text-align: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
+.profil{
+     width: 80%;
+     height: 20%;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: start;
+     gap: 10%;
+}
+

@@ -1,9 +1,10 @@
 .container{
      background-color: #D4C2A8;
-     height: 350px;
+     height: 400px;
      display: flex;
      justify-content: center;
      align-items: center;
+     padding-top: 20px;
 }
 .wrap{
      width: 80%;

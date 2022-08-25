@@ -17,6 +17,12 @@ a:hover{
   box-shadow: none;
 }
 
+@media screen and (min-height: 960px) {
+  body{
+    font-size: 1.3em;
+  }
+}
+
 @media screen and (max-width: 768px) {
   main{
     padding: 0px 20px;

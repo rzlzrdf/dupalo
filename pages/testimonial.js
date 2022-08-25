@@ -5,6 +5,14 @@ import Header from '../components/Header/Header'
 import style from '../styles/testimonial.module.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import Testimonial from '../components/Card/Testimonial'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination } from "swiper";
+
+
+
 
 const testimonial = () => {
   return (
@@ -23,11 +31,29 @@ const testimonial = () => {
              <p className='text-center'>Berbagai review positif dari para pelanggan kami</p>
             </Col>
               
-            <Col lg={12} className={style.card_container}>
-              <Testimonial image={'/review.png'} review={'“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”'} profile={'Jack, Malangs'} />
-              <Testimonial image={'/review.png'} review={'Lorem ipsum'} profile={'Jack, Malangs'} />
-              <Testimonial image={'/review.png'} review={'Lorem ipsum'} profile={'Jack, Malangs'} />
-              <Testimonial image={'/review.png'} review={'Lorem ipsum'} profile={'Jack, Malangs'} />
+            <Col lg={12} className={style.review_container}>
+              <div className={style.swuipe}>
+                <Swiper
+                  effect={"coverflow"}
+                  grabCursor={true}
+                  centeredSlides={true}
+                  slidesPerView={"3"}
+                  coverflowEffect={{
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 80,
+                    modifier: 2,
+                    slideShadows: false,
+                  }}
+                  pagination={true}
+                  modules={[EffectCoverflow, Pagination]}
+                  >
+                  <SwiperSlide><Testimonial /></SwiperSlide>
+                  <SwiperSlide><Testimonial /></SwiperSlide>
+                  <SwiperSlide><Testimonial /></SwiperSlide>
+                  <SwiperSlide><Testimonial /></SwiperSlide>
+                </Swiper>
+              </div>
             </Col>
           </Row>
         </Container>

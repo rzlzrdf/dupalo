@@ -16,13 +16,13 @@ const Header = () => {
   return (
      <Navbar className={style.nav}>
      <Container>
-       <Link href='/'><Image src={'/logo.png'} width={100} height={60} alt='logo-dupalo'/></Link>
+       <Link href='/'><Image src={'/logo.png'} width={120} height={70} alt='logo-dupalo'/></Link>
        <Navbar.Toggle />
        <Navbar.Collapse className={"justify-content-end align-items-center gap-4 "+style.links}>
          <Link href='/'>Beranda</Link>
          <Link href='/katalog'>Katalog</Link>
          <Link href='/testimonial'>Testimonial</Link>
-         <Link href='/katalog'>FAQ</Link>
+         <Link href='/faq'>FAQ</Link>
          <Form.Select aria-label="Default select example"className={style.lang}>
             <option value="1">ID</option>
             <option value="2">EN</option>
@@ -36,11 +36,11 @@ const Header = () => {
           <Offcanvas.Header closeButton className='mx-4'>
             <Offcanvas.Title><Link href='/'><Image src={'/logo.png'} width={100} height={60} alt='logo-dupalo'/></Link></Offcanvas.Title>
           </Offcanvas.Header>
-          <Offcanvas.Body className='d-flex justify-content-start flex-column gap-5 fs-3 fw-bold m-4'>
+          <Offcanvas.Body className='d-flex justify-content-start flex-column gap-5 fs-lg-6 fs-sm-4 fw-bold m-4'>
             <Link href='/'>Beranda</Link>
             <Link href='/katalog'>Katalog</Link>
             <Link href='/testimonial'>Testimonial</Link>
-            <Link href='/katalog'>FAQ</Link>
+            <Link href='/faq'>FAQ</Link>
             <div className='d-flex justify-content-center gap-4 mt-4'>
               <Link href='#'><img src='/indonesia.png' alt='id' className={style.languange}/></Link> 
               <Link href='#'><img src='/uk.png' alt='uk' className={style.languange}/></Link> 

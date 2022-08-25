@@ -1,11 +1,14 @@
-.card_container{
-     width: 100%;
+.review_container{
+     width: 90vw;
+     height: 60vh;
      display: flex;
      flex-direction: row;
-     flex-wrap: wrap;
      align-items: center;
      justify-content: center;
-     gap: 2%;
-     row-gap: 3vh;
-     margin: 10% 0%;
+     margin: 5% 0%;
+}
+
+.swuipe{
+     width: 65%;
+     height: 400px;
 }

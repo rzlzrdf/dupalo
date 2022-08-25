@@ -1,0 +1,15 @@
+.section1{
+     height: 60vh;
+     margin-top: 5vh;
+}
+
+.item{
+     display: flex;
+     justify-content: start;
+     flex-direction: column;
+     gap: 10px
+}
+
+.btn{
+     border: none;
+}

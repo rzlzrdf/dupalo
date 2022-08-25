@@ -12,7 +12,6 @@
 }
 
 .hero21{
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,8 +19,8 @@
 .dupa{
   width: 100%;
   box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.42);
--webkit-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.42);
--moz-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.42);
+  -webkit-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.42);
+  -moz-box-shadow: 10px 10px 34px 1px rgba(0,0,0,0.42);
 }
 
 .hero22{
@@ -95,10 +94,21 @@
     margin-bottom: 40px;
   }
 
-  
-.about1 h3{
-  display: none;
-}
+  .hero22 p{
+    margin-top: -8px;
+  }
+
+  .about1 h3{
+    display: none;
+  }
+
+  .find_card{
+    height: 300px;
+  }
+
+  .find_card p{
+    width: 85%;
+  }
 
   .dupa{
     width: 30px;
