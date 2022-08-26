@@ -10,6 +10,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
+import Image from 'next/image'
 
 
 
@@ -54,6 +55,16 @@ const testimonial = () => {
                   <SwiperSlide><Testimonial /></SwiperSlide>
                 </Swiper>
               </div>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <Row>
+            <Col lg={12} className='d-flex justify-content-center'>
+              <h3 className='fw-bold text-center'>Partner Kami</h3>
+            </Col>
+            <Col lg={12} className={style.logo}>
+              <Image src='/krisna.png' width={100} height={50} />
             </Col>
           </Row>
         </Container>

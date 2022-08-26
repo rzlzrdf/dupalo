@@ -1,15 +1,55 @@
 .section1{
-     height: 60vh;
-     margin-top: 5vh;
+     min-height: 65vh;
+     padding: 5% 0%;
 }
 
 .item{
      display: flex;
-     justify-content: start;
+     justify-content: flex-start;
      flex-direction: column;
-     gap: 10px
 }
 
 .btn{
-     border: none;
+     border: 1px solid slategray;
+}
+
+.section2{
+     max-height: 50vh;
+}
+
+.text{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.text p{
+     width: 70%;
+
+}
+
+.wa{
+     background-color: #73CA5C;
+     border: 1px solid #73CA5C;
+     border-radius: 15px;
+     color: white;
+     width: 200px;
+}
+
+.gambar{
+     height: 50vh;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+}
+
+@media screen and (max-width: 768px){
+
+     .section2{
+          margin-bottom: 30px;
+     }
+
+     .gambar{
+          display: none;
+     }
 }

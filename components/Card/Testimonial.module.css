@@ -34,3 +34,18 @@
      gap: 10%;
 }
 
+@media screen and (max-width: 425px){
+     .container{
+          width: 200px;
+          height: 320px;
+     }
+     .quote{
+          text-align: center;
+     }
+     .quote h4{
+          font-size: 1em;
+     }
+     .profil h5{
+          font-size: 1em;
+     }
+}
