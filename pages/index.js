@@ -14,7 +14,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Dupalo | Homepage</title>
         <meta name="viewport" content="width=device-width inital-scale=1" />
@@ -25,7 +25,7 @@ export default function Home() {
       <header> 
         <Header/>
       </header>
-      <main>
+      <main className={styles.container}>
       {/* <section id='hero'>
         <Container>
           <Row>
@@ -96,6 +96,6 @@ export default function Home() {
       <footer>
         <Footer/>
       </footer>
-    </div>
+    </>
   )
 }

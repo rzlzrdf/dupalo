@@ -25,7 +25,7 @@ const testimonial = () => {
       </Head>
 
       <Header/>
-        <Container className='d-flex justify-content-center'>
+        <Container className='d-flex justify-content-center my-5'>
           <Row>
             <Col lg={12}>
              <h3 className='fw-bold text-center'>Testimonial</h3>
@@ -64,7 +64,7 @@ const testimonial = () => {
               <h3 className='fw-bold text-center'>Partner Kami</h3>
             </Col>
             <Col lg={12} className={style.logo}>
-              <Image src='/krisna.png' width={100} height={50} />
+              <Image src='/krisna.png' width={100} height={55} />
             </Col>
           </Row>
         </Container>

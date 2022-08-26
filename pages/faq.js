@@ -81,7 +81,7 @@ const faq = () => {
               <Button className={style.wa}><BsWhatsapp/> Whatsapp</Button>
             </Col>
             <Col lg={6} className={style.gambar}>
-              <Image src='/model1.png' width={180} height={220} />
+              <img src='/model1.png' width={280} height={320} />
             </Col>
           </Row>
         </Container>

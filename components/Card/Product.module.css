@@ -1,0 +1,45 @@
+.container{
+     width: 180px;
+     height: 280px;
+     display: flex;
+     align-items: center;
+     border-radius: 10px;
+     
+}
+.img{
+     width: 94%;
+     padding-top: 3%;
+     border-radius: 10px 10px 0px 0px;
+     height: 40%;
+     object-fit: cover;
+
+}
+
+.title{
+     font-size: 1em;
+     font-weight: bold;
+     height: 40%;
+     overflow: hidden;
+}
+
+.desc{
+     font-size: 0.8em;
+     font-weight: 300;
+     height: 10%;
+}
+
+.price{
+     height: 20%;
+}
+
+@media screen and (max-width: 768px){
+     .container{
+          width: 200px;
+     }
+}
+@media screen and (max-width: 425px){
+     .container{
+          width: 150px;
+          height: 250px;
+     }
+}

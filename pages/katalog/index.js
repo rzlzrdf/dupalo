@@ -3,6 +3,12 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper";
+import style from '../../styles/katalog.module.css'
+import Product from '../../components/Card/Product'
 
 const katalog = () => {
   return (
@@ -12,13 +18,61 @@ const katalog = () => {
         <meta name="description" content="Dupalo Produk Katalog" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Header/>
+      <header>
+        <Header/>
+      </header>
+      <main>
         <Container>
           <Row>
-            <Col>Katalog Page</Col>
+            <Col lg={12} className={'d-flex justify-content-center '+style.banner}>
+            <Swiper navigation={true} modules={[Navigation]} className={style.mySwiper}>
+              <SwiperSlide className={style.card}><img src='/bg1.jpg'/></SwiperSlide>
+              <SwiperSlide className={style.card}><img src='/bg2.jpg'/></SwiperSlide>
+              <SwiperSlide className={style.card}><img src='/bg3.jpg'/></SwiperSlide>
+            </Swiper>
+            </Col>
           </Row>
         </Container>
-      <Footer/>
+        <section id='gold' className={style.gold}>
+          <Container>
+            <Row>
+              <Col>
+                <h3 className='fw-bold'>Gold</h3>
+                <p className='text-muted'>Dupa Gold merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang sangat basah dan berminyak dengan ketahanan hingga 1.5 jam</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={12} className={style.product}>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section id='premium' className={style.premium}>
+          <Container>
+              <Row>
+                <Col>
+                  <h3 className='fw-bold'>Premium</h3>
+                  <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+                </Col>
+              </Row>
+            </Container>
+        </section>
+        <section id='special'>
+
+        </section>
+      </main>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   )
 }

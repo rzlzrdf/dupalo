@@ -1,0 +1,46 @@
+.banner{
+     height: 300px;
+     margin: 5% 0%;
+}
+
+.mySwiper{
+     width: 90%;
+}
+
+.card img{
+    width: 100%;
+     object-fit: fill;
+}
+.product{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: center;
+     gap: 5px;
+}
+.gold{
+     background: linear-gradient(89.92deg, #FFF3B5 19.55%, #FFE038 95.38%);
+     height: fit-content;
+     width: 100%;
+     padding: 20px;
+}
+
+.premium{
+     background: linear-gradient(90deg, #D5E3FF 13.56%, rgba(132, 174, 255, 0.83) 81.07%);
+     height: 50vh;
+     padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+     .product{
+          justify-content: space-evenly;
+          row-gap: 30px;
+     }
+}
+@media screen and (max-width: 992px) {
+     .product{
+          justify-content: center;
+          row-gap: 5px;
+     }
+}

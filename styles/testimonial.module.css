@@ -22,6 +22,9 @@
 }
 
 @media screen and (max-width: 992px){
+     .review_container{
+          width: 98vw;
+     }
      .swuipe{
           width: 100%;
      }     
