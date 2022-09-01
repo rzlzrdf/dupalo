@@ -34,13 +34,13 @@
 
 @media screen and (max-width: 992px) {
      .product{
-          justify-content: space-evenly;
+          justify-content: center;
           row-gap: 30px;
      }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 425px) {
      .product{
-          justify-content: center;
+          justify-content: space-evenly;
           row-gap: 5px;
      }
 }

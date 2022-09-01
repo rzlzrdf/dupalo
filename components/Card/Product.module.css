@@ -1,24 +1,34 @@
 .container{
-     width: 180px;
-     height: 280px;
+     width: 300px;
+     height: 150px;
      display: flex;
+     flex-direction: row;
      align-items: center;
      border-radius: 10px;
-     
+     cursor: pointer;
+     border: none;
+     padding-left: 7px;
+}
+.container:hover{
+     background-color: #dedede;
+}
+
+.body{
+     max-width: 60%;
+     /* padding: 10px; */
+     overflow: hidden;
 }
 .img{
-     width: 94%;
-     padding-top: 3%;
-     border-radius: 10px 10px 0px 0px;
-     height: 40%;
+     height: 92%;
+     width: 40%;
      object-fit: cover;
-
+     border-radius: 10px;
 }
 
 .title{
-     font-size: 1em;
+     font-size: 16px;
      font-weight: bold;
-     height: 40%;
+     max-height: 20%;
      overflow: hidden;
 }
 
@@ -29,17 +39,50 @@
 }
 
 .price{
-     height: 20%;
+     height: 10%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
      .container{
-          width: 200px;
+          flex-direction: column;
+          width: 150px;
+          height: 230px;
+          padding-left: 0px;
+          padding-top: 6px;
+
      }
+     .img{
+          height: 50%;
+          width: 92%;
+     }
+     .body{
+          height: 50%;
+          max-width: 94%;
+          padding: 5px;
+     }
+     .title{
+          font-size: 14px;
+          max-height: 50%;
+     }
+
+     .desc{
+          font-size: 12px;
+          max-height: 15%;
+     }
+     .price{
+          font-size: 18px;
+          max-height: 35%;
+     }
+
+
 }
 @media screen and (max-width: 425px){
      .container{
           width: 150px;
           height: 250px;
      }
+
+
+
+    
 }

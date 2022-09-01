@@ -9,8 +9,10 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import style from '../../styles/katalog.module.css'
 import Product from '../../components/Card/Product'
+import api from '../api/Produk.json'
 
-const katalog = () => {
+
+const katalog = ({produk}) => {
   return (
     <>    
       <Head>
@@ -43,15 +45,12 @@ const katalog = () => {
             </Row>
             <Row>
               <Col lg={12} className={style.product}>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
-                <Product img={'/gold/teratai.jpg'} title={'Dupa Gold 108 batang'} desc={'Dupa Stik'} price={'Rp.72.000'}/>
+                {api.map(data => {
+                  console.log(data)
+                  return(
+                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                  )
+                })}
               </Col>
             </Row>
           </Container>
@@ -62,6 +61,13 @@ const katalog = () => {
                 <Col>
                   <h3 className='fw-bold'>Premium</h3>
                   <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+                </Col>
+              </Row>
+              <Row>
+                <Col lg={12}>
+                  {api.map((currElement, index) => {
+
+                  })}
                 </Col>
               </Row>
             </Container>
