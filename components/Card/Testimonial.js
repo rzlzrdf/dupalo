@@ -11,15 +11,15 @@ const Testimonial = (props) => {
         <Image src={'/quote.png'} alt='review' width={50} height={50} />
       </div>
       <div className={style.quote}>
-        <h4 className='text-muted'>loremCupidatat tempor quis consectetur commodo.</h4>
+        <h4 className='text-muted'>{props.testi}</h4>
       </div>
       <div className={style.profil}>
         <div>
-          <Image src={'/man (1).png'} alt='review' width={50} height={50} />
+          <Image src={props.profil} alt='review' width={50} height={50} />
         </div>
         <div>
-          <h5 className='fw-bold'>Ramdhan</h5>
-          <p>Tokopedia</p>
+          <h5 className='fw-bold'>{props.nama}</h5>
+          <p>{props.platform}</p>
         </div>
       </div>
     </Card>

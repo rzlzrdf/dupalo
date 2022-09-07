@@ -11,6 +11,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
 import Image from 'next/image'
+import api from '../pages/api/Testimonial.json'
 
 
 
@@ -49,10 +50,12 @@ const testimonial = () => {
                   pagination={true}
                   modules={[EffectCoverflow, Pagination]}
                   >
-                  <SwiperSlide><Testimonial /></SwiperSlide>
-                  <SwiperSlide><Testimonial /></SwiperSlide>
-                  <SwiperSlide><Testimonial /></SwiperSlide>
-                  <SwiperSlide><Testimonial /></SwiperSlide>
+                  {/* <SwiperSlide><Testimonial testi={'Barang Bagus'} profil={'/man (1).png'} nama={'Abdul Mufakir'} platform={'Tokopedia'}/></SwiperSlide> */}
+                  {api.map(data => {
+                    return(
+                      <SwiperSlide><Testimonial key={data.id} testi={data.testi} profil={data.foto} nama={data.nama} platform={data.platform} /></SwiperSlide>
+                    )
+                  })}
                 </Swiper>
               </div>
             </Col>

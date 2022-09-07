@@ -1,46 +1,56 @@
 .detail{
      max-width: 100%;
+     height: fit-content;
+}
+
+.fotoproduk{
+     max-width: 100%;
+     height: 100%;
      display: flex;
-     flex-direction: row;
-     align-items: center;
-     padding: 10% 3%;
-     padding-top: 0%;
+     justify-content: center;
 }
 
 .harga{
-     margin-bottom: 50px;
      font-weight: 700;
+     font-size: 26px;
 }
 
 .tokped{
      background: #27AE60;
      border: 1px solid #27AE60;
      border-radius: 100px;
-     height: 48px;
+     height: 35px;
+     width: 200px;
      display: flex;
      align-items: center;
      justify-content: center;
-     gap: 8px;
+     gap: 3px;
 }
 
 .bukalapak{
      background: #FA2C5A;
      border: 1px solid #FA2C5A;
      border-radius: 100px;
-     height: 48px;
+     height: 35px;
+     width: 200px;
      display: flex;
      align-items: center;
      justify-content: center;
-     gap: 8px;
+     gap: 3px;
 }
 
 .shopee{
      background: #F2994A;
      border: 1px solid #F2994A;
      border-radius: 100px;
-     height: 48px;
+     height: 35px;
+     width: 200px;
      display: flex;
      align-items: center;
      justify-content: center;
-     gap: 8px;
+}
+
+.itemfoto{
+     width: 100%;
+     object-fit: fill;
 }
