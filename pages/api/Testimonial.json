@@ -12,5 +12,26 @@
           "foto": "/review.png",
           "nama": "Priyo",
           "platform": "Tokopedia"
+     },
+     {
+          "id": 3,
+          "testi": "Penjual ramah banyak tester smg kedepannya stacknya tersedia bnyk variannya...",
+          "foto": "/review.png",
+          "nama": "Rahadian",
+          "platform": "Google"
+     },
+     {
+          "id": 4,
+          "testi": "Wangi pol ga nyesel beli, wanginya semerbak seruangan, Semua varian wangi",
+          "foto": "/man (1).png",
+          "nama": "Mochamad",
+          "platform": "Tokopedia"
+     },
+     {
+          "id": 5,
+          "testi": "",
+          "foto": "",
+          "nama": "",
+          "platform": ""
      }
 ]

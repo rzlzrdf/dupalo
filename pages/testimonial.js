@@ -53,7 +53,7 @@ const testimonial = () => {
                   {/* <SwiperSlide><Testimonial testi={'Barang Bagus'} profil={'/man (1).png'} nama={'Abdul Mufakir'} platform={'Tokopedia'}/></SwiperSlide> */}
                   {api.map(data => {
                     return(
-                      <SwiperSlide><Testimonial key={data.id} testi={data.testi} profil={data.foto} nama={data.nama} platform={data.platform} /></SwiperSlide>
+                      <SwiperSlide key={data.id}><Testimonial testi={data.testi} profil={data.foto} nama={data.nama} platform={data.platform} /></SwiperSlide>
                     )
                   })}
                 </Swiper>

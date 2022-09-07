@@ -29,6 +29,13 @@
 .premium{
      background: linear-gradient(90deg, #D5E3FF 13.56%, rgba(132, 174, 255, 0.83) 81.07%);
      height: 50vh;
+     width: 100%;
+     padding: 20px;
+}
+.special{
+     background: linear-gradient(180deg, #FEDAFF 0%, rgba(255, 242, 255, 0) 104.07%);
+     min-height: 50vh;
+     width: 100%;
      padding: 20px;
 }
 

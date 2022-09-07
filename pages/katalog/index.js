@@ -9,29 +9,31 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import style from '../../styles/katalog.module.css'
 import Product from '../../components/Card/Product'
-import api from '../api/Produk.json'
+import gold from '../api/Produk.json'
+import premium from '../api/Premium.json'
+import special from '../api/Special.json'
 
 
-const katalog = ({produk}) => {
+const katalog = ({ produk }) => {
   return (
-    <>    
+    <>
       <Head>
         <title>Dupalo | Katalog</title>
         <meta name="description" content="Dupalo Produk Katalog" />
         <link rel="icon" href="/logo.png" />
       </Head>
       <header>
-        <Header/>
+        <Header />
       </header>
       <main>
         <Container>
           <Row>
-            <Col lg={12} className={'d-flex justify-content-center '+style.banner}>
-            <Swiper navigation={true} modules={[Navigation]} className={style.mySwiper}>
-              <SwiperSlide className={style.card}><img src='/bg1.jpg'/></SwiperSlide>
-              <SwiperSlide className={style.card}><img src='/bg2.jpg'/></SwiperSlide>
-              <SwiperSlide className={style.card}><img src='/bg3.jpg'/></SwiperSlide>
-            </Swiper>
+            <Col lg={12} className={'d-flex justify-content-center ' + style.banner}>
+              <Swiper navigation={true} modules={[Navigation]} className={style.mySwiper}>
+                <SwiperSlide className={style.card}><img src='/bg1.jpg' /></SwiperSlide>
+                <SwiperSlide className={style.card}><img src='/bg2.jpg' /></SwiperSlide>
+                <SwiperSlide className={style.card}><img src='/bg3.jpg' /></SwiperSlide>
+              </Swiper>
             </Col>
           </Row>
         </Container>
@@ -45,9 +47,8 @@ const katalog = ({produk}) => {
             </Row>
             <Row>
               <Col lg={12} className={style.product}>
-                {api.map(data => {
-                  console.log(data)
-                  return(
+                {gold.map(data => {
+                  return (
                     <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
                   )
                 })}
@@ -57,27 +58,45 @@ const katalog = ({produk}) => {
         </section>
         <section id='premium' className={style.premium}>
           <Container>
-              <Row>
-                <Col>
-                  <h3 className='fw-bold'>Premium</h3>
-                  <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
-                </Col>
-              </Row>
-              <Row>
-                <Col lg={12}>
-                  {api.map((currElement, index) => {
-
-                  })}
-                </Col>
-              </Row>
-            </Container>
+            <Row>
+              <Col lg={12}>
+                <h3 className='fw-bold'>Premium</h3>
+                <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={12} className={style.product}>
+                {premium.map((data) => {
+                  return (
+                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                  )
+                })}
+              </Col>
+            </Row>
+          </Container>
         </section>
-        <section id='special'>
-
+        <section id='special' className={style.special}>
+          <Container>
+            <Row>
+              <Col lg={12}>
+                <h3 className='fw-bold'>Premium</h3>
+                <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={12} className={style.product}>
+                {special.map((data) => {
+                  return (
+                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                  )
+                })}
+              </Col>
+            </Row>
+          </Container>
         </section>
       </main>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </>
   )

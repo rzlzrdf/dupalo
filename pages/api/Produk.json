@@ -1,206 +1,57 @@
 [
-
   {
     "id": 0,
-    "foto": [ "/gold/1.jpg", "/gold/1.jpg", "contributor" ],
+    "foto": [
+      "/gold/1.jpg",
+      "/gold/1.jpg",
+      "contributor"
+    ],
     "judul": "Dupa Gold 108 batang",
     "tipe": "Dupa Stik",
     "harga": 72000
   },
   {
     "id": 1,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
+    "foto": [
+      "/gold/2.jpg",
+      "/gold/1.jpg",
+      "contributor"
+    ],
     "judul": "Dupa Gold 108 batang - Tabung",
     "tipe": "Dupa Stik",
     "harga": 126000
   },
   {
     "id": 2,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
+    "foto": [
+      "/gold/2.jpg",
+      "/gold/1.jpg",
+      "contributor"
+    ],
     "judul": "Dupa Gold 504 gram - Tabung",
     "tipe": "Dupa Stik",
     "harga": 180000
   },
   {
     "id": 3,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
+    "foto": [
+      "/gold/2.jpg",
+      "/gold/1.jpg",
+      "contributor"
+    ],
     "judul": "Dupa Gold 504 gram - Bag",
     "tipe": "Dupa Stik",
     "harga": 162000
   },
   {
     "id": 4,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
+    "foto": [
+      "/gold/2.jpg",
+      "/gold/1.jpg",
+      "contributor"
+    ],
     "judul": "Dupa Gold 1008 gram",
     "tipe": "Dupa Stik",
     "harga": 324000
-  },
-  {
-    "id": 5,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Premium 20 Batang",
-    "tipe": "Dupa Stik",
-    "harga": 15000
-  },
-  {
-    "id": 6,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Premium 50 Batang",
-    "tipe": "Dupa Stik",
-    "harga": 18000
-  },
-  {
-    "id": 7,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Premium 108 Batang",
-    "tipe": "Dupa Stik",
-    "harga": 18000
-  },
-  {
-    "id": 8,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Special 9 Batang",
-    "tipe": "Dupa Stik",
-    "harga": 33000
-  },
-  {
-    "id": 9,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Special 504 Batang - Kering",
-    "tipe": "Dupa Stik",
-    "harga": 54000
-  },
-  {
-    "id": 10,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Special 504 Batang - Basah",
-    "tipe": "Dupa Stik",
-    "harga": 72000
-  },
-  {
-    "id": 11,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Kerucut 27 Batang",
-    "tipe": "Dupa Kerucut",
-    "harga": 36000
-  },
-  {
-    "id": 12,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Asturba 27 Batang",
-    "tipe": "Dupa Asturba",
-    "harga": 72000
-  },
-  {
-    "id": 13,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Tiong 9 Jam",
-    "tipe": "Dupa Stik",
-    "harga": 45000
-  },
-  {
-    "id": 14,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Tiong 18 Jam",
-    "tipe": "Dupa Stik",
-    "harga": 180000
-  },
-  {
-    "id": 15,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Special 252 gram kering tabung",
-    "tipe": "Dupa Stik",
-    "harga": 36000
-  },
-  {
-    "id": 16,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Special 252 gram basah tabung",
-    "tipe": "Dupa Stik",
-    "harga": 45000
-  },
-  {
-    "id": 17,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Special 504 gram",
-    "tipe": "Dupa Stik",
-    "harga": 162000
-  },
-  {
-    "id": 18,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Kering Natura 1kg",
-    "tipe": "Dupa Stik",
-    "harga": 108000
-  },
-  {
-    "id": 19,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Kering Warna 1kg",
-    "tipe": "Dupa Stik",
-    "harga": 120000
-  },
-  {
-    "id": 20,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Garcen 108 Batang",
-    "tipe": "Dupa Stik",
-    "harga": 45000
-  },
-  {
-    "id": 21,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa SW 1kg Natural",
-    "tipe": "Dupa Stik",
-    "harga": 54000
-  },
-  {
-    "id": 22,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa SW 1kg Warna",
-    "tipe": "Dupa Stik",
-    "harga": 60000
-  },
-  {
-    "id": 23,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Atma 108 Batang Gaharu",
-    "tipe": "Dupa Stik",
-    "harga": 36000
-  },
-  {
-    "id": 24,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Atma 108 Batang Menyan",
-    "tipe": "Dupa Stik",
-    "harga": 40000
-  },
-  {
-    "id": 25,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Atma 108 Batang Jempinang",
-    "tipe": "Dupa Stik",
-    "harga": 45000
-  },
-  {
-    "id": 26,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Atma 502gr Jempinang",
-    "tipe": "Dupa Stik",
-    "harga": 63000
-  },
-  {
-    "id": 27,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Atma 502gr Gaharu",
-    "tipe": "Dupa Stik",
-    "harga": 72000
-  },
-  {
-    "id": 28,
-    "foto": [ "/gold/2.jpg", "/gold/1.jpg", "contributor" ],
-    "judul": "Dupa Atma 502gr Menyan",
-    "tipe": "Dupa Stik",
-    "harga": 90000
   }
 ]
