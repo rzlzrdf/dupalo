@@ -1,5 +1,6 @@
 .container{
-     background-color: #D4C2A8;
+     background-color: #2B2B2B;
+     color: #fefefe;
      height: 400px;
      display: flex;
      justify-content: center;
@@ -25,7 +26,7 @@
      display: flex;
      flex-direction: column;
      gap: 10px;
-     color: black;
+     color: #fafafa;
      text-decoration: none;
      font-weight: bold;
 }

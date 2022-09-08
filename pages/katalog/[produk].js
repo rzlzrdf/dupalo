@@ -37,7 +37,7 @@ const produk = (props) => {
               <Card.Title className={style.harga}>Rp. 72.000</Card.Title>
               <h6 className='text-muted mt-4'>Tersedia pada</h6>
               </div>
-              <div className='d-flex justify-content-center gap-2 mt-2'>
+              <div className={style.wrap_btn}>
                 <Button variant='secondary' className={style.tokped}><img src='/tokopedia.svg' />Tokopedia</Button>
                 <Button variant='secondary' className={style.bukalapak}><img src='/bl.svg' />Bukalapak</Button>
                 <Button variant='secondary' className={style.shopee }><img src='/shopee.svg' />Shopee</Button>
@@ -56,11 +56,11 @@ const produk = (props) => {
           </Card>
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <Col  lg={{span: 6, offset: 6}} className='mb-3'>
           
         </Col>
-      </Row>
+      </Row> */}
     </Container>
     </>
   )

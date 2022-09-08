@@ -12,6 +12,8 @@ import Product from '../../components/Card/Product'
 import gold from '../api/Produk.json'
 import premium from '../api/Premium.json'
 import special from '../api/Special.json'
+import atma from '../api/Atma.json'
+import seri27 from '../api/Seri27.json'
 
 
 const katalog = ({ produk }) => {
@@ -86,6 +88,44 @@ const katalog = ({ produk }) => {
             <Row>
               <Col lg={12} className={style.product}>
                 {special.map((data) => {
+                  return (
+                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                  )
+                })}
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section id='special' className={style.atma}>
+          <Container>
+            <Row>
+              <Col lg={12}>
+                <h3 className='fw-bold'>Atma</h3>
+                <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={12} className={style.product}>
+                {atma.map((data) => {
+                  return (
+                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                  )
+                })}
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section id='special' className={style.atma}>
+          <Container>
+            <Row>
+              <Col lg={12}>
+                <h3 className='fw-bold'>Seri 27</h3>
+                <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={12} className={style.product}>
+                {seri27.map((data) => {
                   return (
                     <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
                   )

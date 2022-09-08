@@ -10,6 +10,14 @@
      justify-content: center;
 }
 
+.wrap_btn{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 2%;
+}
+
 .harga{
      font-weight: 700;
      font-size: 26px;
@@ -53,4 +61,14 @@
 .itemfoto{
      width: 100%;
      object-fit: fill;
+}
+
+@media screen and (max-width: 425px) {
+     .wrap_btn{
+          flex-direction: column;
+          row-gap: 10px;
+     }
+     .tokped , .bukalapak , .shopee{
+          width: 100%;
+     }
 }

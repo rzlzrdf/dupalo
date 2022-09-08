@@ -6,7 +6,7 @@
 }
 
 .hero2{
-  min-height: 80vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
 }
@@ -70,7 +70,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #D4C2A8;
+  background-color: #2B2B2B;
+  color: #fafafa;
   border-radius: 20px;
 }
 
@@ -80,7 +81,7 @@
 }
 
 .find_card a{
-  border: 1px solid #D4C2A8;
+  border: 1px solid #fafafa;
   border-radius: 50px;
   background-color: #4F4F4F;
   color: white;
