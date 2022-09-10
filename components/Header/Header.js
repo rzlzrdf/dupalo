@@ -28,7 +28,7 @@ const Header = () => {
           </Form.Select>
         </Navbar.Collapse>
         <Button variant="white" onClick={handleShow} className={style.mobnav}>
-          <HiMenuAlt4 size={25} />
+          <HiMenuAlt4 className={style.menumob} />
         </Button>
 
         <Offcanvas show={show} onHide={handleClose} placement={'end'}>

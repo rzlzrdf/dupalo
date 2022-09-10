@@ -26,9 +26,16 @@
 }
 
 @media screen and (max-width: 992px) {
+     .logo{
+          width: 16%;
+     }
      .mobnav{
           display: block;
-          font-size: 20px;
+          font-size: 30px;
+     }
+     .menumob{
+          height: 30px;
+          width: 30px;
      }
      
      .links a{
@@ -43,6 +50,7 @@
           display: none;
      }
 }
+
 @media screen and (max-width: 425px) {
      .logo{
           width: 25%;

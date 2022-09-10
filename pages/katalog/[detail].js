@@ -33,22 +33,26 @@ const Produk = (props) => {
     <>
       <Header />
       <Container>
-        <Row>
-          <Col lg={6} className={style.fotoproduk + ' mt-4'}>
-            <Link href='/katalog'><button className={style.btns}><IoChevronBack size={28} />Back</button></Link>
+        {
+          <>
+            <Row>
+              <Col lg={6} className={style.fotoproduk + ' mt-4'}>
+                <Link href='/katalog' className={style.btns}><IoChevronBack size={28} /></Link>
+                <CarouselProduk foto={select ? select.foto : 'https://dummyimage.com/600x600/white/fff.png'} />
+              </Col>
+              <Col lg={6} className={''}>
+                <Label judul={select ? select.judul : '..'} harga={select ? select.harga : ''} />
+                <Deskripsi deskripsi={select ? select.deskripsi : '-'} />
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={{ span: 6, offset: 6 }} className='mb-3'>
 
-            {/* <CarouselProduk foto={select.foto}/> */}
-          </Col>
-          <Col lg={6}>
-            <Label judul={select ? select.judul : 'Loading...'} harga={select ? select.harga : 0} />
-            <Deskripsi deskripsi={select ? select.deskripsi : '-'} />
-          </Col>
-        </Row>
-        <Row>
-          <Col lg={{ span: 6, offset: 6 }} className='mb-3'>
+              </Col>
+            </Row>
+          </>
+        }
 
-          </Col>
-        </Row>
       </Container>
     </>
   )

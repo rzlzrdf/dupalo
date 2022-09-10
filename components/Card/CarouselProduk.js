@@ -5,16 +5,15 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from 'swiper'
-import { AiFillTool } from 'react-icons/ai';
 
 
 const CarouselProduk = (props) => {
      return (
-          <Swiper navigation={true} pagination={true} modules={[Navigation, Pagination]} className="mySwiper">
+          <Swiper navigation={true} pagination={true} modules={[Navigation, Pagination]} className={"mySwiper " + style.foto_container}>
                {props.foto !== null && props.foto.map(fotoproduk => {
                     return (
                          fotoproduk !== null &&
-                         <SwiperSlide key={props.id}>
+                         <SwiperSlide key={props.id} className={style.itemfoto}>
                               <img
                                    src={fotoproduk}
                                    onError={e => e.target.style.display = 'none'}
