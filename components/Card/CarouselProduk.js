@@ -15,6 +15,7 @@ const CarouselProduk = (props) => {
                          fotoproduk !== null &&
                          <SwiperSlide key={props.id} className={style.itemfoto}>
                               <img
+                                   alt='dupalo product pict'
                                    src={fotoproduk}
                                    onError={e => e.target.style.display = 'none'}
                               />
