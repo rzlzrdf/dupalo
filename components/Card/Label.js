@@ -16,9 +16,9 @@ const Label = (props) => {
                          <h6 className='text-muted mt-4'>Tersedia pada</h6>
                     </div>
                     <div className={style.wrap_btn}>
-                         <Button variant='secondary' className={style.tokped}><img src='/tokopedia.svg' />Tokopedia</Button>
-                         <Button variant='secondary' className={style.bukalapak}><img src='/bl.svg' />Bukalapak</Button>
-                         <Button variant='secondary' className={style.shopee}><img src='/shopee.svg' />Shopee</Button>
+                         <Button variant='secondary' className={style.tokped}><img alt='' src='/tokopedia.svg' />Tokopedia</Button>
+                         <Button variant='secondary' className={style.bukalapak}><img alt='' src='/bl.svg' />Bukalapak</Button>
+                         <Button variant='secondary' className={style.shopee}><img alt='' src='/shopee.svg' />Shopee</Button>
                     </div>
                </Card.Body>
           </Card>
