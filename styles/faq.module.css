@@ -1,34 +1,34 @@
-.section1{
+.section1 {
      min-height: 65vh;
      padding: 5% 0%;
 }
 
-.item{
+.item {
      display: flex;
      justify-content: flex-start;
      flex-direction: column;
 }
 
-.btn{
+.btn {
      border: 1px solid slategray;
 }
 
-.section2{
+.section2 {
      max-height: 50vh;
 }
 
-.text{
+.text {
      display: flex;
      flex-direction: column;
      justify-content: center;
 }
 
-.text p{
+.text p {
      width: 70%;
 
 }
 
-.wa{
+.wa {
      background-color: #73CA5C;
      border: 1px solid #73CA5C;
      border-radius: 15px;
@@ -36,20 +36,20 @@
      width: 200px;
 }
 
-.gambar{
+.gambar {
      height: 50vh;
      display: flex;
      justify-content: flex-end;
      align-items: flex-end;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-     .section2{
+     .section2 {
           margin-bottom: 30px;
      }
 
-     .gambar{
+     .gambar {
           display: none;
      }
 }

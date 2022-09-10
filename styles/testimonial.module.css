@@ -1,19 +1,19 @@
-.review_container{
-     width: 90vw;
-     min-height: 60vh;
+.review_container {
+     width: 98vw;
+     min-height: 50vh;
      display: flex;
      flex-direction: row;
      align-items: center;
      justify-content: center;
-     margin: 5% 0%;
+     margin: 2% 0%;
 }
 
-.swuipe{
+.swuipe {
      width: 65%;
      height: 400px;
 }
 
-.logo{
+.logo {
      margin-top: 2%;
      height: 40vh;
      display: flex;
@@ -21,16 +21,15 @@
      align-items: flex-start;
 }
 
-@media screen and (max-width: 992px){
-     .review_container{
+@media screen and (max-width: 992px) {
+     .review_container {
           width: 98vw;
      }
-     .swuipe{
+
+     .swuipe {
           width: 100%;
-     }     
+     }
 }
 
 
-@media screen and (max-width: 425px){
-     
-}
+@media screen and (max-width: 425px) {}

@@ -1,6 +1,9 @@
 .links{
      text-decoration: none;
 }
+.logo{
+     width: 8%;
+}
 .nav{
      gap: 10%;
      height: 10vh;

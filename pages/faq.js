@@ -1,7 +1,6 @@
 import React from 'react'
-import Image from 'next/image'
 import { Accordion, Button, Col, Container, Row } from 'react-bootstrap'
-import {BsWhatsapp} from 'react-icons/bs'
+import { BsWhatsapp } from 'react-icons/bs'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import style from '../styles/faq.module.css'
@@ -10,7 +9,7 @@ const faq = () => {
   return (
     <div>
       <header>
-        <Header/>
+        <Header />
       </header>
       <main>
         <Container className={style.section1}>
@@ -20,7 +19,7 @@ const faq = () => {
               <p>Berikut merupakan pertanyaan yang sering diajukan</p>
             </Col>
             <Col lg={6}>
-            <Accordion defaultActiveKey="0" className={style.item}>
+              <Accordion defaultActiveKey="0" className={style.item}>
                 <Accordion.Item eventKey="0" className={style.btn}>
                   <Accordion.Header>Apa itu Dupalo?</Accordion.Header>
                   <Accordion.Body>
@@ -78,7 +77,7 @@ const faq = () => {
             <Col lg={6} className={style.text}>
               <h3>Whatsapp Center</h3>
               <p>Ajukan pertanyaanmu seputar Dupalo kepada admin kami melalui Whatsapp Center kami dibawah ini</p>
-              <Button className={style.wa}><BsWhatsapp/> Whatsapp</Button>
+              <Button className={style.wa}><BsWhatsapp /> Whatsapp</Button>
             </Col>
             <Col lg={6} className={style.gambar}>
               <img src='/model1.png' />
@@ -87,7 +86,7 @@ const faq = () => {
         </Container>
       </main>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   )

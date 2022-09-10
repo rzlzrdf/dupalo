@@ -3,10 +3,8 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper";
 import style from '../../styles/katalog.module.css'
 import Product from '../../components/Card/Product'
 import gold from '../api/Produk.json'
@@ -29,13 +27,9 @@ const katalog = ({ produk }) => {
       </header>
       <main>
         <Container>
-          <Row>
-            <Col lg={12} className={'d-flex justify-content-center ' + style.banner}>
-              <Swiper navigation={true} modules={[Navigation]} className={style.mySwiper}>
-                <SwiperSlide className={style.card}><img src='/bg1.jpg' /></SwiperSlide>
-                <SwiperSlide className={style.card}><img src='/bg2.jpg' /></SwiperSlide>
-                <SwiperSlide className={style.card}><img src='/bg3.jpg' /></SwiperSlide>
-              </Swiper>
+          <Row lg={12} className={'d-flex justify-content-center h-100'} >
+            <Col className={style.banner}>
+              
             </Col>
           </Row>
         </Container>
