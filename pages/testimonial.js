@@ -5,7 +5,7 @@ import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import style from '../styles/testimonial.module.css'
 import { Col, Container, Row } from 'react-bootstrap'
-import Testimonial from '../components/Card/Testimonial'
+import Testimonial from '../Cmponents/Card/Testimonial'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
