@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { Accordion, Button, Col, Container, Row } from 'react-bootstrap'
 import { BsWhatsapp } from 'react-icons/bs'
-import Footer from '../components/Footer/Footer'
-import Header from '../components/Header/Header'
+import Footer from '../Components/Footer/Footer'
+import Header from '../Components/Header/Header'
 import style from '../styles/faq.module.css'
 
 const faq = () => {
@@ -80,7 +81,7 @@ const faq = () => {
               <Button className={style.wa}><BsWhatsapp /> Whatsapp</Button>
             </Col>
             <Col lg={6} className={style.gambar}>
-              <img src='/model1.png' />
+              <img src='/model1.png' alt='' />
             </Col>
           </Row>
         </Container>

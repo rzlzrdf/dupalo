@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import Footer from '../../components/Footer/Footer'
-import Header from '../../components/Header/Header'
+import Footer from '../../Components/Footer/Footer'
+import Header from '../../Components/Header/Header'
 import "swiper/css";
 import "swiper/css/navigation";
 import style from '../../styles/katalog.module.css'
-import Product from '../../components/Card/Product'
+import Product from '../../Components/Card/Product'
 import gold from '../api/Produk.json'
 import premium from '../api/Premium.json'
 import special from '../api/Special.json'
@@ -95,7 +95,7 @@ const katalog = ({ produk }) => {
             <Row>
               <Col lg={12}>
                 <h3 className='fw-bold'>Atma</h3>
-                <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+                <p className='text-muted'>Dupa Merk Atma merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
               </Col>
             </Row>
             <Row>
@@ -114,7 +114,7 @@ const katalog = ({ produk }) => {
             <Row>
               <Col lg={12}>
                 <h3 className='fw-bold'>Seri 27</h3>
-                <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+                <p className='text-muted'>Dupa Merk Seri 27 merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
               </Col>
             </Row>
             <Row>

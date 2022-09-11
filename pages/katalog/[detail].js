@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import Header from '../../components/Header/Header'
+import Header from '../../Components/Header/Header'
 import { useRouter } from 'next/router';
 import style from '../../styles/detail.module.css'
 import api from '../api/AllProduk.json'
-import Label from '../../components/Card/Label';
-import Deskripsi from '../../components/Card/Deskripsi';
-import CarouselProduk from '../../components/Card/CarouselProduk';
+import Label from '../../Components/Card/Label';
+import Deskripsi from '../../Components/Card/Deskripsi';
+import CarouselProduk from '../../Components/Card/CarouselProduk';
 import Link from 'next/link';
 import { IoChevronBack } from 'react-icons/io5'
 

@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Header from '../components/Header/Header'
-import Footer from '../components/Footer/Footer'
+import Header from '../Components/Header/Header'
+import Footer from '../Components/Footer/Footer'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

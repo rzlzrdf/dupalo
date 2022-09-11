@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Head from 'next/head'
-import Footer from '../components/Footer/Footer'
-import Header from '../components/Header/Header'
+import Footer from '../Components/Footer/Footer'
+import Header from '../Components/Header/Header'
 import style from '../styles/testimonial.module.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import Testimonial from '../components/Card/Testimonial'
@@ -66,7 +67,7 @@ const testimonial = () => {
             <h3 className='fw-bold text-center'>Partner Kami</h3>
           </Col>
           <Col lg={12} className={style.logo}>
-            <img src='/krisna.png' width={100} height={55} />
+            <img src='/krisna.png' width={100} height={55} alt='' />
           </Col>
         </Row>
       </Container>
