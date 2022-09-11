@@ -1,0 +1,58 @@
+.wrap_btn {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 2%;
+}
+
+.harga {
+     font-weight: 700;
+     font-size: 26px;
+}
+
+.tokped {
+     background: #27AE60;
+     border: 1px solid #27AE60;
+     border-radius: 100px;
+     height: 35px;
+     width: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3px;
+}
+
+.bukalapak {
+     background: #FA2C5A;
+     border: 1px solid #FA2C5A;
+     border-radius: 100px;
+     height: 35px;
+     width: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3px;
+}
+
+.shopee {
+     background: #F2994A;
+     border: 1px solid #F2994A;
+     border-radius: 100px;
+     height: 35px;
+     width: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+@media screen and (max-width: 425px) {
+     .wrap_btn {
+          flex-direction: column;
+          row-gap: 10px;
+     }
+     .tokped, .shopee, .bukalapak{
+          width: 100%;
+     }
+}

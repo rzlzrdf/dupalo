@@ -1,0 +1,60 @@
+.links{
+     text-decoration: none;
+}
+.logo{
+     width: 8%;
+}
+.nav{
+     gap: 10%;
+     height: 10vh;
+     font-size: 0.9em;
+     /* font-weight: 500; */
+     background: transparent;
+}
+
+.lang{
+     border: none;
+     font-size: 0.9em;
+     font-weight: 500;
+     width: 7%;
+     margin-left: -1%;
+     color: darkcyan;
+}
+
+.mobnav{
+     display: none;
+}
+
+@media screen and (max-width: 992px) {
+     .logo{
+          width: 16%;
+     }
+     .mobnav{
+          display: block;
+          font-size: 30px;
+     }
+     .menumob{
+          height: 30px;
+          width: 30px;
+     }
+     
+     .links a{
+          display: none;
+     }
+
+     .languange{
+          width: 35px;
+     }
+     
+     .links select{
+          display: none;
+     }
+}
+
+@media screen and (max-width: 425px) {
+     .logo{
+          width: 25%;
+          padding-left: 5%;
+     }
+}
+

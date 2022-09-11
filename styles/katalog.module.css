@@ -1,0 +1,64 @@
+.banner {
+     height: 20vh;
+     margin: 5% 0%;
+}
+
+.mySwiper {
+     width: 70%;
+     height: 100%;
+     padding: 0px;
+}
+
+.card img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.product {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-auto-rows: min-content;
+     column-gap: 5px;
+     gap: 5px;
+     row-gap: auto;
+}
+
+.gold {
+     background: linear-gradient(89.92deg, #FFF3B5 19.55%, #FFE038 95.38%);
+     min-height: fit-content;
+     width: 100%;
+     padding: 20px;
+}
+
+.premium {
+     background: linear-gradient(90deg, #D5E3FF 13.56%, rgba(132, 174, 255, 0.83) 81.07%);
+     min-height: 50vh;
+     width: 100%;
+     padding: 20px;
+}
+
+.special {
+     background: linear-gradient(180deg, #FEDAFF 0%, rgba(255, 242, 255, 0) 104.07%);
+     min-height: 50vh;
+     width: 100%;
+     padding: 20px;
+}
+
+.atma {
+     min-height: 50vh;
+     width: 100%;
+     padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+
+@media screen and (max-width: 425px) {
+     .product {
+          grid-template-columns: repeat(2, 1fr);
+
+     }
+}

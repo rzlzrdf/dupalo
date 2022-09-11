@@ -1,0 +1,54 @@
+.container{
+     background-color: white;
+     width: 300px;
+     height: 400px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1%;
+     border-radius: 20px;
+}
+.gambar{
+     width: 80%;
+     height: 10%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+.quote{
+     width: 90%;
+     height: 50%;
+     text-align: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.quote h4{
+     font-size: 1.5em;
+}
+.profil{
+     width: 80%;
+     height: 20%;
+     display: flex;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 10%;
+}
+
+@media screen and (max-width: 425px){
+     .container{
+          width: 200px;
+          height: 320px;
+     }
+     .quote{
+          text-align: center;
+     }
+     .quote h4{
+          font-size: 1em;
+     }
+     .profil h5{
+          font-size: 1em;
+     }
+}

@@ -1,0 +1,35 @@
+.review_container {
+     width: 98vw;
+     min-height: 50vh;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin: 2% 0%;
+}
+
+.swuipe {
+     width: 65%;
+     height: 400px;
+}
+
+.logo {
+     margin-top: 2%;
+     height: 40vh;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+}
+
+@media screen and (max-width: 992px) {
+     .review_container {
+          width: 98vw;
+     }
+
+     .swuipe {
+          width: 100%;
+     }
+}
+
+
+@media screen and (max-width: 425px) {}
