@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>Dupalo | Homepage</title>
-        <meta name="viewport" content="width=device-width inital-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="description" content="Dupalo Official Website" />
         <link rel="icon" href="/logo.png" />
       </Head>

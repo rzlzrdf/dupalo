@@ -80,9 +80,6 @@ const faq = () => {
               <p>Ajukan pertanyaanmu seputar Dupalo kepada admin kami melalui Whatsapp Center kami dibawah ini</p>
               <Button className={style.wa}><BsWhatsapp /> Whatsapp</Button>
             </Col>
-            <Col lg={6} className={style.gambar}>
-              <img src='/model1.png' alt='' />
-            </Col>
           </Row>
         </Container>
       </main>

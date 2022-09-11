@@ -37,8 +37,8 @@ const Produk = (props) => {
           <>
             <Row>
               <Col lg={6} className={style.fotoproduk + ' mt-4'}>
-                <button type="button" onClick={() => router.back()}>
-                  Click here to go back
+                <button type="button" onClick={() => router.back()} className={style.back}>
+                  <IoChevronBack /> Kembali
                 </button>
                 {/* <Link href='/katalog' className={style.btns}><IoChevronBack size={28} /></Link> */}
                 <CarouselProduk id={select ? select.id : '0'} foto={select ? select.foto : img} />

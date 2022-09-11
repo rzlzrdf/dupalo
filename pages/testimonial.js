@@ -67,7 +67,7 @@ const testimonial = () => {
             <h3 className='fw-bold text-center'>Partner Kami</h3>
           </Col>
           <Col lg={12} className={style.logo}>
-            <img src='/krisna.png' width={100} height={55} alt='' />
+            <img src='/brand/krisna.png' width={100} height={55} alt='' />
           </Col>
         </Row>
       </Container>

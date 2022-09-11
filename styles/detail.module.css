@@ -12,21 +12,22 @@
 }
 
 
-.btns {
-     border: none;
-     background-color: transparent;
-     cursor: pointer;
+.back {
+     display: none;
 }
 
-.btns :hover {
-     color: blue;
-}
 
 @media screen and (max-width: 425px) {
-     .fotoproduk{
+     .fotoproduk {
           flex-direction: column;
      }
-     .btns{
+
+     .back {
           width: 100px;
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
      }
 }
