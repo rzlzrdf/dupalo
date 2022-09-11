@@ -9,14 +9,16 @@ import Image from 'next/image';
 
 
 const CarouselProduk = (props) => {
+
+     const pict = props.foto
+     console.log(pict)
      return (
           <Swiper navigation={true} pagination={true} modules={[Navigation, Pagination]} className={"mySwiper " + style.foto_container}>
-               {props.foto !== null && props.foto.map(fotoproduk => {
+               {pict.map(fotoproduk => {
                     return (
                          fotoproduk !== null &&
-                         <SwiperSlide key={props.id} className={style.itemfoto}>
-                              <Image
-                                   width={50} height={50} 
+                         <SwiperSlide key={fotoproduk} className={style.itemfoto}>
+                              <img
                                    alt='dupalo product pict'
                                    src={fotoproduk}
                                    onError={e => e.target.style.display = 'none'}

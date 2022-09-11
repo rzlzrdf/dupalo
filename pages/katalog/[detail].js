@@ -16,7 +16,7 @@ const Produk = (props) => {
   const select = api[detail]
   console.log(select)
 
-
+  const img = ['https://dummyimage.com/600x600/white/fff.png']
 
 
   // const [judul, setJudul] = useState(null)
@@ -37,8 +37,11 @@ const Produk = (props) => {
           <>
             <Row>
               <Col lg={6} className={style.fotoproduk + ' mt-4'}>
-                <Link href='/katalog' className={style.btns}><IoChevronBack size={28} /></Link>
-                {/* <CarouselProduk foto={select ? select.foto : 'https://dummyimage.com/600x600/white/fff.png'} /> */}
+                <button type="button" onClick={() => router.back()}>
+                  Click here to go back
+                </button>
+                {/* <Link href='/katalog' className={style.btns}><IoChevronBack size={28} /></Link> */}
+                <CarouselProduk id={select ? select.id : '0'} foto={select ? select.foto : img} />
               </Col>
               <Col lg={6} className={''}>
                 <Label judul={select ? select.judul : '..'} harga={select ? select.harga : ''} />

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react'
 import style from './Header.module.css'
 import { Navbar, Container, Dropdown, DropdownButton, Form, Button, Offcanvas } from 'react-bootstrap'
