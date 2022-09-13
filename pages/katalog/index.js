@@ -45,7 +45,7 @@ const katalog = ({ produk }) => {
               <Col lg={12} className={style.product}>
                 {gold.map(data => {
                   return (
-                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                    <Product key={data.id} id={data.id} img={data.foto} title={data.judul} desc={data.tipe} price={data.harga} />
                   )
                 })}
               </Col>
@@ -64,7 +64,7 @@ const katalog = ({ produk }) => {
               <Col lg={12} className={style.product}>
                 {premium.map((data) => {
                   return (
-                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                    <Product key={data.id} id={data.id} img={data.foto} title={data.judul} desc={data.tipe} price={data.harga} />
                   )
                 })}
               </Col>
@@ -83,7 +83,7 @@ const katalog = ({ produk }) => {
               <Col lg={12} className={style.product}>
                 {special.map((data) => {
                   return (
-                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                    <Product key={data.id} id={data.id} img={data.foto} title={data.judul} desc={data.tipe} price={data.harga} />
                   )
                 })}
               </Col>

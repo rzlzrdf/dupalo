@@ -5,7 +5,8 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from 'swiper'
-import Image from 'next/image';
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 
 const CarouselProduk = (props) => {
@@ -18,11 +19,13 @@ const CarouselProduk = (props) => {
                     return (
                          fotoproduk !== null &&
                          <SwiperSlide key={fotoproduk} className={style.itemfoto}>
-                              <img
-                                   alt='dupalo product pict'
-                                   src={fotoproduk}
-                                   onError={e => e.target.style.display = 'none'}
-                              />
+                              <Zoom>
+                                   <img
+                                        alt='dupalo product pict'
+                                        src={fotoproduk}
+                                        onError={e => e.target.style.display = 'none'}
+                                   />
+                              </Zoom>
                          </SwiperSlide>
                     )
                })}

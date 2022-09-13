@@ -1,55 +1,35 @@
 [
   {
     "id": 0,
-    "foto": [
-      "/gold/1.jpg",
-      "/gold/1.jpg",
-      "contributor"
-    ],
+    "foto": "/gold/1.jpg",
     "judul": "Dupa Gold 108 batang",
     "tipe": "Dupa Stik",
     "harga": 72000
   },
   {
     "id": 1,
-    "foto": [
-      "/gold/2.jpg",
-      "/gold/1.jpg",
-      "contributor"
-    ],
+    "foto": "/gold/1.jpg",
     "judul": "Dupa Gold 108 batang - Tabung",
     "tipe": "Dupa Stik",
     "harga": 126000
   },
   {
     "id": 2,
-    "foto": [
-      "/gold/2.jpg",
-      "/gold/1.jpg",
-      "contributor"
-    ],
+    "foto": "/gold/1.jpg",
     "judul": "Dupa Gold 504 gram - Tabung",
     "tipe": "Dupa Stik",
     "harga": 180000
   },
   {
     "id": 3,
-    "foto": [
-      "/gold/2.jpg",
-      "/gold/1.jpg",
-      "contributor"
-    ],
+    "foto": "/gold/1.jpg",
     "judul": "Dupa Gold 504 gram - Bag",
     "tipe": "Dupa Stik",
     "harga": 162000
   },
   {
     "id": 4,
-    "foto": [
-      "/gold/2.jpg",
-      "/gold/1.jpg",
-      "contributor"
-    ],
+    "foto": "/gold/1.jpg",
     "judul": "Dupa Gold 1008 gram",
     "tipe": "Dupa Stik",
     "harga": 324000

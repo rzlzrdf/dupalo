@@ -8,7 +8,8 @@
                "/gold/4.jpg",
                "/gold/5.jpg",
                "/gold/6.jpg",
-               "/gold/7.jpg"          ],
+               "/gold/7.jpg"
+          ],
           "judul": "Dupa Gold 108 batang",
           "tipe": "Dupa Stik",
           "harga": 72000,
@@ -16,9 +17,7 @@
      },
      {
           "id": 1,
-          "foto": [
-               
-          ],
+          "foto": [],
           "judul": "Dupa Gold 108 batang - Tabung",
           "tipe": "Dupa Stik",
           "harga": 126000
@@ -81,20 +80,36 @@
      {
           "id": 7,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/premium/100 (1).jpg",
+               "/premium/100 (2).jpg",
+               "/premium/100 (3).jpg"
           ],
           "judul": "Dupa Premium 108 Batang",
           "tipe": "Dupa Stik",
-          "harga": 18000
+          "harga": 54000
      },
      {
           "id": 8,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/9 (1).jpg",
+               "/special/9 (5).jpg",
+               "/special/9 (6).jpg",
+               "/special/9 (7).jpg",
+               "/special/9 (8).jpg",
+               "/special/9 (9).jpg",
+               "/special/9 (10).jpg",
+               "/special/9 (11).jpg",
+               "/special/9 (12).jpg",
+               "/special/9 (14).jpg",
+               "/special/9 (15).jpg",
+               "/special/9 (16).jpg",
+               "/special/9 (17).jpg",
+               "/special/9 (18).jpg",
+               "/special/9 (19).jpg",
+               "/special/9 (20).jpg",
+               "/special/9 (21).jpg",
+               "/special/9 (22).jpg",
+               "/special/9 (23).jpg"
           ],
           "judul": "Dupa Special 9 Batang",
           "tipe": "Dupa Stik",
@@ -224,9 +239,28 @@
      {
           "id": 20,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/108 (1).jpg",
+               "/special/108 (2).jpg",
+               "/special/108 (3).jpg",
+               "/special/108 (4).jpg",
+               "/special/108 (5).jpg",
+               "/special/108 (6).jpg",
+               "/special/108 (7).jpg",
+               "/special/108 (8).jpg",
+               "/special/108 (9).jpg",
+               "/special/108 (10).jpg",
+               "/special/108 (11).jpg",
+               "/special/108 (12).jpg",
+               "/special/108 (13).jpg",
+               "/special/108 (14).jpg",
+               "/special/108 (15).jpg",
+               "/special/108 (16).jpg",
+               "/special/108 (17).jpg",
+               "/special/108 (18).jpg",
+               "/special/108 (19).jpg",
+               "/special/108 (20).jpg",
+               "/special/108 (21).jpg",
+               "/special/108 (22).jpg"
           ],
           "judul": "Dupa Garcen 108 Batang",
           "tipe": "Dupa Stik",
