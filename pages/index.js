@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <header>
+      <header className={styles.header}>
         <Header />
       </header>
       <main className={styles.container}>
@@ -51,7 +51,7 @@ export default function Home() {
           <Container>
             <Row>
               <Col lg={6} md={12} sm={12} className={styles.hero21}>
-                <img src={'/dupa.png'} alt='dupalo' className={styles.dupa} />
+                <img src={'/hero.png'} alt='dupalo' className={styles.dupa} />
               </Col>
               <Col lg={6} md={12} className={styles.hero22}>
                 <h3 className='fw-bold'>Toko dupa khusus produksi Dupalo merk Gentong 3 Dupa, Baladewa dan Atma</h3>
@@ -71,7 +71,9 @@ export default function Home() {
             <Row>
               <Col lg={6} md={12} className={styles.about1}>
                 <h3 className={'mb-4 fw-bold '}>Tentang Kami</h3>
-                <article>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn`t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</article>
+                <article>
+                  Toko dan Pabrik Dupa <b>Dupalo</b> merupakan sebuah industri yang berbasis di <b>Kota Malang</b> dengan memproduksi aneka macam dupa bermerk <b>Gentong Tiga Dupa</b>, <b>Atma</b>, dan <b>Seri 27</b> untuk berbagai jenis keperluan seperti Aromaterapi, Sembahyang, Ritual, Sesaji dan lainnya. <b>Dupalo</b> menggunakan bahan produksi yang berkualitas serta bersertifkat untuk aman digunakan.
+                </article>
               </Col>
               <Col lg={6} md={12} className={styles.about2}>
                 <img src={'/logo.png'} width={380} height={250} alt='logo-dupalo' className={styles.logo} />

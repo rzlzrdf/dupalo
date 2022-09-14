@@ -1,6 +1,7 @@
 .section1 {
      min-height: 65vh;
-     padding: 5% 0%;
+     max-width: 90%;
+     padding: 5% 2%;
 }
 
 .item {
@@ -15,6 +16,8 @@
 
 .section2 {
      max-height: 50vh;
+     max-width: 90%;
+     padding: 5% 2%;
 }
 
 .text {

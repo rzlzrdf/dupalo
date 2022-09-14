@@ -1,143 +1,91 @@
 [
      {
           "id": 23,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/108 (2).jpg",
           "judul": "Dupa Atma 108 Batang Gaharu",
           "tipe": "Dupa Stik",
           "harga": 36000
      },
      {
           "id": 24,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/108 (1).jpg",
           "judul": "Dupa Atma 108 Batang Menyan",
           "tipe": "Dupa Stik",
           "harga": 40000
      },
      {
           "id": 25,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/108 (3).jpg",
           "judul": "Dupa Atma 108 Batang Jempinang",
           "tipe": "Dupa Stik",
           "harga": 45000
      },
      {
           "id": 26,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/504 (1).jpg",
           "judul": "Dupa Atma 502gr Jempinang",
           "tipe": "Dupa Stik",
           "harga": 63000
      },
      {
           "id": 27,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/504 (2).jpg",
           "judul": "Dupa Atma 504gr Gaharu",
           "tipe": "Dupa Stik",
           "harga": 63000
      },
      {
           "id": 28,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/504 (3).jpg",
           "judul": "Dupa Atma 504gr Menyan",
           "tipe": "Dupa Stik",
           "harga": 72000
      },
      {
           "id": 29,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/504 (1).jpg",
           "judul": "Dupa Atma 504gr Jempinang",
           "tipe": "Dupa Stik",
           "harga": 90000
      },
      {
           "id": 30,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/504 (2).jpg",
           "judul": "Dupa Atma 504gr Kelor",
           "tipe": "Dupa Stik",
           "harga": 72000
      },
      {
           "id": 31,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/252 (1).jpg",
           "judul": "Dupa Atma 252gr Tabung - Gaharu",
           "tipe": "Dupa Stik",
           "harga": 40000
      },
      {
           "id": 32,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/252 (4).jpg",
           "judul": "Dupa Atma 252gr Tabung - Menyan",
           "tipe": "Dupa Stik",
           "harga": 45000
      },
      {
           "id": 33,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/252 (4).jpg",
           "judul": "Dupa Atma 252gr Tabung - Jempinang",
           "tipe": "Dupa Stik",
           "harga": 54000
      },
      {
           "id": 34,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/252 (2).jpg",
           "judul": "Dupa Atma 252gr Tabung - Kelor",
           "tipe": "Dupa Stik",
           "harga": 45000
      },
      {
           "id": 35,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/atma/g.jpg",
           "judul": "Dupa Dodol Gaharu",
           "tipe": "Dupa Pasta",
           "harga": 72000
@@ -166,11 +114,7 @@
      },
      {
           "id": 38,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
+          "foto": "/special/pasta.jpg",
           "judul": "Pasta Menyan",
           "tipe": "Dupa Pasta",
           "harga": 90000

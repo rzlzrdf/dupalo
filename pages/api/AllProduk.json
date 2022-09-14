@@ -151,9 +151,11 @@
      {
           "id": 12,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/a (1).jpg",
+               "/special/a (2).jpg",
+               "/special/a (3).jpg",
+               "/special/a (4).jpg",
+               "/special/a (5).jpg"
           ],
           "judul": "Dupa Asturba 27 Batang",
           "tipe": "Dupa Asturba",
@@ -162,9 +164,9 @@
      {
           "id": 13,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/tiong (1).jpg",
+               "/special/tiong (2).jpg",
+               "/special/tiong (3).jpg"
           ],
           "judul": "Dupa Tiong 9 Jam",
           "tipe": "Dupa Stik",
@@ -173,9 +175,9 @@
      {
           "id": 14,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/tiong (1).jpg",
+               "/special/tiong (2).jpg",
+               "/special/tiong (3).jpg"
           ],
           "judul": "Dupa Tiong 18 Jam",
           "tipe": "Dupa Stik",
@@ -184,13 +186,21 @@
      {
           "id": 15,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/t (1).jpg",
+               "/special/t (2).jpg",
+               "/special/t (3).jpg",
+               "/special/t (4).jpg",
+               "/special/t (5).jpg",
+               "/special/t (6).jpg",
+               "/special/t (7).jpg",
+               "/special/t (8).jpg",
+               "/special/t (9).jpg",
+               "/special/t (10).jpg"
           ],
           "judul": "Dupa Special 252 gram kering tabung",
           "tipe": "Dupa Stik",
-          "harga": 36000
+          "harga": 36000,
+          "deskripsi": "*Dupa Special kualitas wangi sedang. *Panjang dupa 28cm nyala -/+ 45 menit. *Kondisi dupa kering. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa bakar (aman bagi kesehatan) *Diproduksi dari bahan baku sampai menjadi dupa kemasan sehingga kualitas dan peruntukan dupa terjamin. *Peruntukan : sembahayang, ritual, sesaji, benda* pusaka dan lainya. *Pilihan aroma : Canang sari  Canang wangi Cempaka Cendana Chandan Exotic Floral Himalaya Kelor Kenangga Mawar Melati Keraton Melati Raja Pudak wangi Romantic Sari batur Sari madu Teratai Vanila White angel Coklat Kopi Sakura Teh hijau Apel Anggur Alpine Floral Lavender Pandan wangi "
      },
      {
           "id": 16,
@@ -269,9 +279,7 @@
      {
           "id": 21,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/nat.jpg"
           ],
           "judul": "Dupa SW 1kg Natural",
           "tipe": "Dupa Stik",
@@ -280,9 +288,7 @@
      {
           "id": 22,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/nat.jpg"
           ],
           "judul": "Dupa SW 1kg Warna",
           "tipe": "Dupa Stik",
@@ -291,9 +297,7 @@
      {
           "id": 23,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/108 (2).jpg"
           ],
           "judul": "Dupa Atma 108 Batang Gaharu",
           "tipe": "Dupa Stik",
@@ -302,9 +306,7 @@
      {
           "id": 24,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/108 (1).jpg"
           ],
           "judul": "Dupa Atma 108 Batang Menyan",
           "tipe": "Dupa Stik",
@@ -313,9 +315,7 @@
      {
           "id": 25,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/108 (3).jpg"
           ],
           "judul": "Dupa Atma 108 Batang Jempinang",
           "tipe": "Dupa Stik",
@@ -324,20 +324,16 @@
      {
           "id": 26,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/504 (1).jpg"
           ],
-          "judul": "Dupa Atma 502gr Jempinang",
+          "judul": "Dupa Atma 504gr Jempinang",
           "tipe": "Dupa Stik",
           "harga": 63000
      },
      {
           "id": 27,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/504 (2).jpg"
           ],
           "judul": "Dupa Atma 504gr Gaharu",
           "tipe": "Dupa Stik",
@@ -346,9 +342,7 @@
      {
           "id": 28,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/504 (3).jpg"
           ],
           "judul": "Dupa Atma 504gr Menyan",
           "tipe": "Dupa Stik",
@@ -357,9 +351,7 @@
      {
           "id": 29,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/504 (1).jpg"
           ],
           "judul": "Dupa Atma 504gr Jempinang",
           "tipe": "Dupa Stik",
@@ -368,9 +360,7 @@
      {
           "id": 30,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/504 (2).jpg"
           ],
           "judul": "Dupa Atma 504gr Kelor",
           "tipe": "Dupa Stik",
@@ -379,9 +369,7 @@
      {
           "id": 31,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/252 (1).jpg"
           ],
           "judul": "Dupa Atma 252gr Tabung - Gaharu",
           "tipe": "Dupa Stik",
@@ -390,9 +378,7 @@
      {
           "id": 32,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/252 (4).jpg"
           ],
           "judul": "Dupa Atma 252gr Tabung - Menyan",
           "tipe": "Dupa Stik",
@@ -401,9 +387,7 @@
      {
           "id": 33,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/252 (4).jpg"
           ],
           "judul": "Dupa Atma 252gr Tabung - Jempinang",
           "tipe": "Dupa Stik",
@@ -412,9 +396,7 @@
      {
           "id": 34,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/252 (2).jpg"
           ],
           "judul": "Dupa Atma 252gr Tabung - Kelor",
           "tipe": "Dupa Stik",
@@ -423,9 +405,7 @@
      {
           "id": 35,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/g.jpg"
           ],
           "judul": "Dupa Dodol Gaharu",
           "tipe": "Dupa Pasta",
@@ -456,9 +436,7 @@
      {
           "id": 38,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/pasta.jpg"
           ],
           "judul": "Pasta Menyan",
           "tipe": "Dupa Pasta",
@@ -522,9 +500,7 @@
      {
           "id": 42,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/seri27/s (1).jpg"
           ],
           "judul": "Dupa Seri 27 - Naga Kawi",
           "tipe": "Dupa Stik",
@@ -533,9 +509,7 @@
      {
           "id": 43,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/seri27/s (7).jpg"
           ],
           "judul": "Dupa Seri 27 - Opium",
           "tipe": "Dupa Stik",

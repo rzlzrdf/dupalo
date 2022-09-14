@@ -24,49 +24,25 @@ const faq = () => {
                 <Accordion.Item eventKey="0" className={style.btn}>
                   <Accordion.Header>Apa itu Dupalo?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Dupalo adalah toko dan pabrik dupa yang berbasis di Kota Malang, Jawa Timur.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1" className={style.btn}>
-                  <Accordion.Header>Accordion Item 2</Accordion.Header>
+                  <Accordion.Header>Bagaimana cara memesan atau membeli produk secara online</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Pemesanan atau pembelian produk Dupalo dapat tersedia di ketiga E-Commerce terbesar di Indonesia seperti Tokopedia, Shopee, dan Bukalpak. Atau anda juga dapat menekan 3 tombol tersedia pada katalog produk untuk diarahkan langsung ke halaman produk di e-commerce.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2" className={style.btn}>
-                  <Accordion.Header>Accordion Item 3</Accordion.Header>
+                  <Accordion.Header>Apa perbedaan seri Gold, Premium, dan Special</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Pada seri Gold kondisi minyak pada dupa sangat basah, sedangkan Premium memiliki kondisi basah, dan Spesial memiliki kondisi minyak cukup basha. Minyak dupa memiliki efek pada durasi nyala suatu dupa dan tingkat kekuatan aroma.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3" className={style.btn}>
-                  <Accordion.Header>Accordion Item 4</Accordion.Header>
+                  <Accordion.Header>Berapa biaya dan lama ongkir yang dibutuhkan ?</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Durasi serta biaya pengiriman memiliki nilai yang relatif dengan jarak tempuh dan berat produk sesuai Ekspedisi pilihan pelanggan pada saat memesan di E-Commerce.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>

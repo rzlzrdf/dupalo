@@ -102,7 +102,7 @@ const katalog = ({ produk }) => {
               <Col lg={12} className={style.product}>
                 {atma.map((data) => {
                   return (
-                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                    <Product key={data.id} id={data.id} img={data.foto} title={data.judul} desc={data.tipe} price={data.harga} />
                   )
                 })}
               </Col>
@@ -121,7 +121,7 @@ const katalog = ({ produk }) => {
               <Col lg={12} className={style.product}>
                 {seri27.map((data) => {
                   return (
-                    <Product key={data.id} id={data.id} img={data.foto[0]} title={data.judul} desc={data.tipe} price={data.harga} />
+                    <Product key={data.id} id={data.id} img={data.foto} title={data.judul} desc={data.tipe} price={data.harga} />
                   )
                 })}
               </Col>
