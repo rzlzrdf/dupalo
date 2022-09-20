@@ -501,7 +501,7 @@
           "bukalapak":"www.bukalapak.com"
      },
      {
-          "id": 41,
+          "id": 43,
           "foto": [
                "/gold/2.jpg",
                "/gold/1.jpg",
@@ -512,16 +512,16 @@
           "harga": 72000
      },
      {
-          "id": 42,
+          "id": 44,
           "foto": [
-               "/seri27/s (1).jpg"
+               "/seri27/s (9).jpg"
           ],
           "judul": "Dupa Seri 27 - Naga Kawi",
           "tipe": "Dupa Stik",
           "harga": 21000
      },
      {
-          "id": 43,
+          "id": 45,
           "foto": [
                "/seri27/s (7).jpg"
           ],
@@ -530,33 +530,11 @@
           "harga": 21000
      },
      {
-          "id": 44,
+          "id": 46,
           "foto": [
                "/seri27/s (7).jpg"
           ],
           "judul": "Dupa Seri 27 - Misik",
-          "tipe": "Dupa Stik",
-          "harga": 21000
-     },
-     {
-          "id": 45,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
-          "judul": "Dupa Seri 27 - Kasturi",
-          "tipe": "Dupa Stik",
-          "harga": 21000
-     },
-     {
-          "id": 46,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
-          "judul": "Dupa Seri 27 - KastCpbrauri",
           "tipe": "Dupa Stik",
           "harga": 21000
      },
@@ -567,7 +545,7 @@
                "/gold/1.jpg",
                "contributor"
           ],
-          "judul": "Dupa Seri 27 - Kawi",
+          "judul": "Dupa Seri 27 - Kasturi",
           "tipe": "Dupa Stik",
           "harga": 21000
      },
@@ -578,9 +556,9 @@
                "/gold/1.jpg",
                "contributor"
           ],
-          "judul": "Dupa Seri 27 Tabung - Kawi",
+          "judul": "Dupa Seri 27 - KastCpbrauri",
           "tipe": "Dupa Stik",
-          "harga": 27000
+          "harga": 21000
      },
      {
           "id": 49,
@@ -589,9 +567,9 @@
                "/gold/1.jpg",
                "contributor"
           ],
-          "judul": "Dupa Seri 27 Tabung - Opium",
+          "judul": "Dupa Seri 27 - Kawi",
           "tipe": "Dupa Stik",
-          "harga": 27000
+          "harga": 21000
      },
      {
           "id": 50,
@@ -600,7 +578,7 @@
                "/gold/1.jpg",
                "contributor"
           ],
-          "judul": "Dupa Seri 27 Tabung - Misik",
+          "judul": "Dupa Seri 27 Tabung - Kawi",
           "tipe": "Dupa Stik",
           "harga": 27000
      },
@@ -611,7 +589,7 @@
                "/gold/1.jpg",
                "contributor"
           ],
-          "judul": "Dupa Seri 27 Tabung - Kasturi",
+          "judul": "Dupa Seri 27 Tabung - Opium",
           "tipe": "Dupa Stik",
           "harga": 27000
      },
@@ -622,12 +600,34 @@
                "/gold/1.jpg",
                "contributor"
           ],
-          "judul": "Dupa Seri 27 Tabung - Cobra",
+          "judul": "Dupa Seri 27 Tabung - Misik",
           "tipe": "Dupa Stik",
           "harga": 27000
      },
      {
           "id": 53,
+          "foto": [
+               "/gold/2.jpg",
+               "/gold/1.jpg",
+               "contributor"
+          ],
+          "judul": "Dupa Seri 27 Tabung - Kasturi",
+          "tipe": "Dupa Stik",
+          "harga": 27000
+     },
+     {
+          "id": 54,
+          "foto": [
+               "/gold/2.jpg",
+               "/gold/1.jpg",
+               "contributor"
+          ],
+          "judul": "Dupa Seri 27 Tabung - Cobra",
+          "tipe": "Dupa Stik",
+          "harga": 27000
+     },
+     {
+          "id": 55,
           "foto": [
                "/gold/2.jpg",
                "/gold/1.jpg",
