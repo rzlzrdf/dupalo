@@ -1,23 +1,23 @@
 [
      {
-          "id": 5,
-          "foto": "./premium/100 (1).jpg",
+          "id": 4,
+          "foto": "./premium/20.jpg",
           "judul": "Dupa Premium 20 Batang",
           "tipe": "Dupa Stik",
           "harga": 15000
      },
      {
-          "id": 6,
-          "foto": "./premium/100 (1).jpg",
+          "id": 5,
+          "foto": "./premium/50.jpg",
           "judul": "Dupa Premium 50 Batang",
           "tipe": "Dupa Stik",
-          "harga": 18000
+          "harga": 27000
      },
      {
-          "id": 7,
+          "id": 6,
           "foto": "./premium/100 (1).jpg",
           "judul": "Dupa Premium 108 Batang",
           "tipe": "Dupa Stik",
-          "harga": 18000
+          "harga": 54000
      }
 ]

@@ -1,6 +1,6 @@
 .foto_container {
      width: 100%;
-     height: 78vh;
+     max-height: 80vh;
 }
 
 .itemfoto {

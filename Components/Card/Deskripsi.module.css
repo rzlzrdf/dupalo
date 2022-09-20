@@ -1,0 +1,18 @@
+
+.variant{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     row-gap: 10px;
+}
+.btn{
+     color: white;
+     border: none;
+     border-radius: 30px;
+     font-size: 12px;
+     width: 70px;
+}
+
+.kelor{
+     background-color: darkolivegreen;
+}

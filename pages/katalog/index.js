@@ -75,8 +75,8 @@ const katalog = ({ produk }) => {
           <Container>
             <Row>
               <Col lg={12}>
-                <h3 className='fw-bold'>Premium</h3>
-                <p className='text-muted'>Dupa Premium merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
+                <h3 className='fw-bold'>Special</h3>
+                <p className='text-muted'>Dupa Special merupakan dupa dengan kualitas wangi paling kuat dan kondisi yang setengah basah dan berminyak dengan ketahanan hingga 1 jam</p>
               </Col>
             </Row>
             <Row>

@@ -13,72 +13,77 @@
           "judul": "Dupa Gold 108 batang",
           "tipe": "Dupa Stik",
           "harga": 72000,
+          "tokped": "https://www.tokopedia.com/dupalo/dupa-kemenyan-madu-super-sari-menyan-gold-108-batang?extParam=whid%3D3023362",
+          "bukalapak": "",
+          "shopee": "",
           "deskripsi": "Dupa Gold merk Gentong Tiga Dupa atau Baladewa kualitas wangi paling kuat. Panjang dupa 22cm nyala -/+ 1,5 jam. Kondisi dupa basah berminyak. Abu tidak panas dikulit. Warna dupa natural. Menggunakan minyak peruntukan dupa bakar (aman bagi kesehatan). Diproduksi dari bahan baku sampai menjadi dupa kemasan sehingga kualitas dan peruntukan dupa terjamin. Peruntukan : Sembahayang, ritual, sesaji, benda pusaka, aromaterapi dan lainya."
      },
      {
           "id": 1,
-          "foto": [],
+          "foto": ["/gold/108.jpg"],
           "judul": "Dupa Gold 108 batang - Tabung",
           "tipe": "Dupa Stik",
-          "harga": 126000
+          "harga": 126000,
+          "tokped": "https://www.tokopedia.com/dupalo/dupa-gold-tabung-108-batang-39cm?extParam=whid%3D3023362",
+          "deskripsi": "*Dupa Gold kualitas wangi paling kuat. *Panjang dupa 39cm nyala lebih 1,5 jam. *Kondisi dupa basah sekali dan berminyak. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa. *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan :Sembahayang, ritual, sesaji, benda* pusaka, aromaterapi, walet dan lainya."
      },
      {
           "id": 2,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/gold/504.jpg"
           ],
           "judul": "Dupa Gold 504 gram - Tabung",
           "tipe": "Dupa Stik",
-          "harga": 180000
+          "harga": 180000,
+          "tokped": "www.tokopedia.com",
+          "deskripsi": "*Dupa Gold kualitas wangi paling kuat. *Panjang dupa 22, 28, 32 dan 39cm nyala lebih 1,5 jam. *Kondisi dupa basah sekali dan berminyak. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa. *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan :Sembahayang, ritual, sesaji, benda* pusaka, aromaterapi, walet dan lainya."
      },
      {
           "id": 3,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/gold/1008 (1).jpg"
           ],
-          "judul": "Dupa Gold 504 gram - Bag",
+          "judul": "Dupa Gold 1008 gram",
           "tipe": "Dupa Stik",
-          "harga": 162000
+          "harga": 324000,
+          "tokped": "https://www.tokopedia.com/dupalo/dupa-gold-1008gr?extParam=whid%3D3023362",
+          "deskripsi": "*Dupa Gold kualitas wangi paling kuat. *Panjang dupa 22, 28, 32 dan 39cm nyala lebih 1,5 jam. *Kondisi dupa basah sekali dan berminyak. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa. *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan :Sembahayang, ritual, sesaji, benda* pusaka, aromaterapi, walet dan lainya."
      },
      {
           "id": 4,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/premium/20 (1).jpg",
+               "/premium/20 (2).jpg",
+               "/premium/20 (3).jpg",
+               "/premium/20 (4).jpg",
+               "/premium/20 (5).jpg"
           ],
-          "judul": "Dupa Gold 1008 gram",
+          "judul": "Dupa Premium 20 Batang",
           "tipe": "Dupa Stik",
-          "harga": 324000
+          "harga": 27000,
+          "tokped": "https://www.tokopedia.com/dupalo/dupa-gentong-kualitas-premium-50btg?extParam=whid%3D3023362",
+          "deskripsi": "*Dupa Premium kualitas wangi paling kuat. *Panjang dupa 22, 28, 32 dan 39cm nyala lebih 1,5 jam. *Kondisi dupa basah sekali dan berminyak. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa. *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan :Sembahayang, ritual, sesaji, benda* pusaka, aromaterapi, walet dan lainya."
      },
      {
           "id": 5,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
-          "judul": "Dupa Premium 20 Batang",
-          "tipe": "Dupa Stik",
-          "harga": 15000
-     },
-     {
-          "id": 6,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/premium/50 (1).jpg",
+               "/premium/50 (2).jpg",
+               "/premium/50 (3).jpg",
+               "/premium/50 (4).jpg",
+               "/premium/50 (5).jpg",
+               "/premium/50 (6).jpg",
+               "/premium/50 (7).jpg",
+               "/premium/50 (8).jpg"
           ],
           "judul": "Dupa Premium 50 Batang",
           "tipe": "Dupa Stik",
-          "harga": 18000
+          "harga": 27000,
+          "tokped": "https://www.tokopedia.com/dupalo/dupa-gentong-kualitas-premium-50btg?extParam=whid%3D3023362",
+          "deskripsi": "*Dupa Premium kualitas wangi paling kuat. *Panjang dupa 22, 28, 32 dan 39cm nyala lebih 1,5 jam. *Kondisi dupa basah sekali dan berminyak. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa. *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan :Sembahayang, ritual, sesaji, benda* pusaka, aromaterapi, walet dan lainya."
      },
      {
-          "id": 7,
+          "id": 6,
           "foto": [
                "/premium/100 (1).jpg",
                "/premium/100 (2).jpg",
@@ -86,7 +91,22 @@
           ],
           "judul": "Dupa Premium 108 Batang",
           "tipe": "Dupa Stik",
-          "harga": 54000
+          "harga": 54000,
+          "tokped": "https://www.tokopedia.com/dupalo/dupa-gentong-kualitas-premium-108btg?extParam=whid%3D3023362",
+          "deskripsi": "*Dupa Premium kualitas wangi paling kuat. *Panjang dupa 22, 28, 32 dan 39cm nyala lebih 1,5 jam. *Kondisi dupa basah sekali dan berminyak. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa. *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan :Sembahayang, ritual, sesaji, benda* pusaka, aromaterapi, walet dan lainya."
+     },
+     {
+          "id": 7,
+          "foto": [
+               "/premium/100 (1).jpg",
+               "/premium/100 (2).jpg",
+               "/premium/100 (3).jpg"
+              
+          ],
+          "judul": "Dupa Special 9 Batang",
+          "tipe": "Dupa Stik",
+          "harga": 33000,
+          "deskripsi": "*Dupa Gold kualitas wangi paling kuat. *Panjang dupa 39cm nyala lebih 1,5 jam. *Kondisi dupa basah sekali dan berminyak. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa. *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan :Sembahayang, ritual, sesaji, benda* pusaka, aromaterapi, walet dan lainya."
      },
      {
           "id": 8,
@@ -111,23 +131,12 @@
                "/special/9 (22).jpg",
                "/special/9 (23).jpg"
           ],
-          "judul": "Dupa Special 9 Batang",
-          "tipe": "Dupa Stik",
-          "harga": 33000
-     },
-     {
-          "id": 9,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
           "judul": "Dupa Special 504 Batang - Kering",
           "tipe": "Dupa Stik",
           "harga": 54000
      },
      {
-          "id": 10,
+          "id": 9,
           "foto": [
                "/gold/2.jpg",
                "/gold/1.jpg",
@@ -138,7 +147,7 @@
           "harga": 72000
      },
      {
-          "id": 11,
+          "id": 10,
           "foto": [
                "/gold/2.jpg",
                "/gold/1.jpg",
@@ -149,7 +158,7 @@
           "harga": 36000
      },
      {
-          "id": 12,
+          "id": 11,
           "foto": [
                "/special/a (1).jpg",
                "/special/a (2).jpg",
@@ -162,7 +171,7 @@
           "harga": 72000
      },
      {
-          "id": 13,
+          "id": 12,
           "foto": [
                "/special/tiong (1).jpg",
                "/special/tiong (2).jpg",
@@ -173,18 +182,21 @@
           "harga": 45000
      },
      {
-          "id": 14,
+          "id": 13,
           "foto": [
-               "/special/tiong (1).jpg",
-               "/special/tiong (2).jpg",
-               "/special/tiong (3).jpg"
+               "/special/18 (1).jpg",
+               "/special/18 (2).jpg"
           ],
           "judul": "Dupa Tiong 18 Jam",
           "tipe": "Dupa Stik",
-          "harga": 180000
+          "harga": 180000,
+          "tokped":"https://www.tokopedia.com/dupalo/dupa-gentong-kualitas-premium-50btg?extParam=whid%3D3023362",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
+
      },
      {
-          "id": 15,
+          "id": 14,
           "foto": [
                "/special/t (1).jpg",
                "/special/t (2).jpg",
@@ -203,7 +215,7 @@
           "deskripsi": "*Dupa Special kualitas wangi sedang. *Panjang dupa 28cm nyala -/+ 45 menit. *Kondisi dupa kering. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa bakar (aman bagi kesehatan) *Diproduksi dari bahan baku sampai menjadi dupa kemasan sehingga kualitas dan peruntukan dupa terjamin. *Peruntukan : sembahayang, ritual, sesaji, benda* pusaka dan lainya. *Pilihan aroma : Canang sari  Canang wangi Cempaka Cendana Chandan Exotic Floral Himalaya Kelor Kenangga Mawar Melati Keraton Melati Raja Pudak wangi Romantic Sari batur Sari madu Teratai Vanila White angel Coklat Kopi Sakura Teh hijau Apel Anggur Alpine Floral Lavender Pandan wangi "
      },
      {
-          "id": 16,
+          "id": 15,
           "foto": [
                "/gold/2.jpg",
                "/gold/1.jpg",
@@ -214,7 +226,7 @@
           "harga": 45000
      },
      {
-          "id": 17,
+          "id": 16,
           "foto": [
                "/gold/2.jpg",
                "/gold/1.jpg",
@@ -225,7 +237,7 @@
           "harga": 162000
      },
      {
-          "id": 18,
+          "id": 17,
           "foto": [
                "/gold/2.jpg",
                "/gold/1.jpg",
@@ -236,7 +248,7 @@
           "harga": 108000
      },
      {
-          "id": 19,
+          "id": 18,
           "foto": [
                "/gold/2.jpg",
                "/gold/1.jpg",
@@ -247,7 +259,7 @@
           "harga": 120000
      },
      {
-          "id": 20,
+          "id": 19,
           "foto": [
                "/special/108 (1).jpg",
                "/special/108 (2).jpg",
@@ -277,7 +289,7 @@
           "harga": 45000
      },
      {
-          "id": 21,
+          "id": 20,
           "foto": [
                "/special/nat.jpg"
           ],
@@ -286,7 +298,7 @@
           "harga": 54000
      },
      {
-          "id": 22,
+          "id": 21,
           "foto": [
                "/special/nat.jpg"
           ],
@@ -478,13 +490,15 @@
      {
           "id": 42,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/bulat.jpg"
+               
           ],
           "judul": "Briket Bulat",
           "tipe": "Dupa Pasta",
-          "harga": 12000
+          "harga": 12000,
+          "tokped": "www.tokopedia.com",
+          "shopee": "www.shopee.com",
+          "bukalapak":"www.bukalapak.com"
      },
      {
           "id": 41,

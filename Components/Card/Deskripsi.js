@@ -12,6 +12,17 @@ const Deskripsi = (props) => {
                     <Card.Text>
                          {props.deskripsi}
                     </Card.Text>
+                    <div className={style.variant}>
+                         <button className={[style.btn, style.kelor].join(" ")}>Kelor</button>
+                         <button>AAAAA</button>
+                         <button>AAAAA</button>
+                         <button>AAAAA</button>
+                         <button>AAAAA</button>
+                         <button>AAAAA</button>
+                         <button>AAAAA</button>
+                         <button>AAAAA</button>
+                         <button>AAAAA</button>
+                    </div>
                </Card.Body>
           </Card>
      )

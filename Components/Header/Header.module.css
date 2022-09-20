@@ -3,6 +3,7 @@
 }
 .logo{
      width: 8%;
+     cursor: pointer;
 }
 .nav{
      gap: 10%;
@@ -24,6 +25,7 @@
 .mobnav{
      display: none;
 }
+
 
 @media screen and (max-width: 992px) {
      .logo{

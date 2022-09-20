@@ -44,7 +44,7 @@ const Produk = (props) => {
                 <CarouselProduk id={select ? select.id : '0'} foto={select ? select.foto : img} />
               </Col>
               <Col lg={6} className={''}>
-                <Label judul={select ? select.judul : '..'} harga={select ? select.harga : ''} />
+                <Label judul={select ? select.judul : '..'} harga={select ? select.harga : ''} tokped={select ? select.tokped : '#'} bukalapak={select ? select.bukalapak : '#'} shopee={select ? select.shopee : '#'}/>
                 <Deskripsi deskripsi={select ? select.deskripsi : '-'} />
               </Col>
             </Row>

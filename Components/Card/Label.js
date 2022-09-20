@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
 import style from './Label.module.css'
+import Link from 'next/link'
 
 const Label = (props) => {
      return (
@@ -17,9 +18,15 @@ const Label = (props) => {
                          <h6 className='text-muted mt-4'>Tersedia pada</h6>
                     </div>
                     <div className={style.wrap_btn}>
-                         <Button variant='secondary' className={style.tokped}><Image alt='' width={20} height={20} src='/brand/tokopedia.svg' />Tokopedia</Button>
-                         <Button variant='secondary' className={style.bukalapak}><Image alt='' width={20} height={20}  src='/brand/bl.svg' />Bukalapak</Button>
-                         <Button variant='secondary' className={style.shopee}><Image alt='' width={20} height={20}  src='/brand/shopee.svg' />Shopee</Button>
+                         <Link href={props.tokped}>
+                              <Button variant='secondary' className={style.tokped}><Image alt='' width={20} height={20} src='/brand/tokopedia.svg' />Tokopedia</Button>
+                         </Link>
+                         <Link href={'props.bukalapak'}>
+                              <Button variant='secondary' className={style.bukalapak}><Image alt='' width={20} height={20}  src='/brand/bl.svg' />Bukalapak</Button>
+                         </Link>
+                         <Link href={'props.shopee'}>
+                              <Button variant='secondary' className={style.shopee}><Image alt='' width={20} height={20}  src='/brand/shopee.svg' />Shopee</Button>
+                         </Link>
                     </div>
                </Card.Body>
           </Card>
