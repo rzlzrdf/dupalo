@@ -58,7 +58,7 @@ export default function Home() {
         <section className={styles.hero2}>
           <Container>
             <Row>
-              <Col lg={6} md={12} sm={12} className={'d-flex justify-content-center'}>
+              <Col lg={6} md={12} sm={12} className={'d-flex justify-content-center align-items-center'}>
                 <img src={'/hero.png'} alt='dupalo' className={styles.dupa} />
               </Col>
               <Col lg={6} md={12} className={styles.hero22}>
