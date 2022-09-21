@@ -15,6 +15,8 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
 import { BsWhatsapp } from 'react-icons/bs'
 import api from '../pages/api/Testimonial.json'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 
 
@@ -56,7 +58,7 @@ export default function Home() {
         <section className={styles.hero2}>
           <Container>
             <Row>
-              <Col lg={6} md={12} sm={12} className={styles.hero21}>
+              <Col lg={6} md={12} sm={12} className={'d-flex justify-content-center'}>
                 <img src={'/hero.png'} alt='dupalo' className={styles.dupa} />
               </Col>
               <Col lg={6} md={12} className={styles.hero22}>
@@ -98,6 +100,8 @@ export default function Home() {
               <Col lg={12} className={style.review_container}>
                 <div className={style.swuipe}>
                   <Swiper
+                    loop={true}
+                    speed={1000}
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
