@@ -5,17 +5,24 @@
      width: 8%;
      cursor: pointer;
 }
+
+.active{
+     font-size: 15px;
+     color: #F1D00A;
+     font-weight: 700;
+}
+
 .nav{
      gap: 10%;
-     height: 10vh;
-     font-size: 1.1em;
-     /* font-weight: 500; */
+     height: 70px;
+     font-size: 15px;
+     font-weight: 600;
      background: transparent;
 }
 
 .lang{
      border: none;
-     font-size: 1.1em;
+     font-size: 15px;
      font-weight: 500;
      width: 7%;
      margin-left: -1%;

@@ -1,15 +1,13 @@
 .review_container {
-     width: 98vw;
-     min-height: 50vh;
+     width: 96vw;
      display: flex;
      flex-direction: row;
      align-items: center;
      justify-content: center;
-     margin: 2% 0%;
 }
 
 .swuipe {
-     width: 65%;
+     width: 70%;
      height: 400px;
 }
 
@@ -19,6 +17,77 @@
      display: flex;
      justify-content: center;
      align-items: flex-start;
+}
+
+.testi{
+     margin-top: 0vh;
+}
+
+.partner{
+     margin-top: 10%;
+}
+.section1 {
+     max-width: 90%;
+     padding: 0 2%;
+     text-align: justify;
+}
+
+.tulisan{
+     height: 30vh;
+     padding-right: 40px;
+}
+
+.item {
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+}
+
+.btn {
+     border: 1px solid slategray;
+}
+
+.section2 {
+     max-height: 50vh;
+     max-width: 90%;
+     padding: 5% 2%;
+}
+
+.text {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.text p {
+     width: 70%;
+
+}
+
+.wa {
+     background-color: #73CA5C;
+     border: 1px solid #73CA5C;
+     border-radius: 15px;
+     color: white;
+     width: 200px;
+}
+
+.gambar {
+     height: 50vh;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+
+     .section2 {
+          margin-bottom: 30px;
+     }
+
+     .gambar {
+          display: none;
+     }
 }
 
 @media screen and (max-width: 992px) {

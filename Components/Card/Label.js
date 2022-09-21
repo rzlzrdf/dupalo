@@ -21,12 +21,12 @@ const Label = (props) => {
                          <Link href={props.tokped}>
                               <Button variant='secondary' className={style.tokped}><Image alt='' width={20} height={20} src='/brand/tokopedia.svg' />Tokopedia</Button>
                          </Link>
-                         <Link href={'props.bukalapak'}>
+                         {/* <Link href={'props.bukalapak'}>
                               <Button variant='secondary' className={style.bukalapak}><Image alt='' width={20} height={20}  src='/brand/bl.svg' />Bukalapak</Button>
                          </Link>
                          <Link href={'props.shopee'}>
                               <Button variant='secondary' className={style.shopee}><Image alt='' width={20} height={20}  src='/brand/shopee.svg' />Shopee</Button>
-                         </Link>
+                         </Link> */}
                     </div>
                </Card.Body>
           </Card>

@@ -14,8 +14,6 @@
           "tipe": "Dupa Stik",
           "harga": 72000,
           "tokped": "https://www.tokopedia.com/dupalo/dupa-kemenyan-madu-super-sari-menyan-gold-108-batang?extParam=whid%3D3023362",
-          "bukalapak": "",
-          "shopee": "",
           "deskripsi": "Dupa Gold merk Gentong Tiga Dupa atau Baladewa kualitas wangi paling kuat. Panjang dupa 22cm nyala -/+ 1,5 jam. Kondisi dupa basah berminyak. Abu tidak panas dikulit. Warna dupa natural. Menggunakan minyak peruntukan dupa bakar (aman bagi kesehatan). Diproduksi dari bahan baku sampai menjadi dupa kemasan sehingga kualitas dan peruntukan dupa terjamin. Peruntukan : Sembahayang, ritual, sesaji, benda pusaka, aromaterapi dan lainya."
      },
      {
@@ -212,7 +210,10 @@
           "judul": "Dupa Special 252 gram kering tabung",
           "tipe": "Dupa Stik",
           "harga": 36000,
-          "deskripsi": "*Dupa Special kualitas wangi sedang. *Panjang dupa 28cm nyala -/+ 45 menit. *Kondisi dupa kering. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa bakar (aman bagi kesehatan) *Diproduksi dari bahan baku sampai menjadi dupa kemasan sehingga kualitas dan peruntukan dupa terjamin. *Peruntukan : sembahayang, ritual, sesaji, benda* pusaka dan lainya. *Pilihan aroma : Canang sari  Canang wangi Cempaka Cendana Chandan Exotic Floral Himalaya Kelor Kenangga Mawar Melati Keraton Melati Raja Pudak wangi Romantic Sari batur Sari madu Teratai Vanila White angel Coklat Kopi Sakura Teh hijau Apel Anggur Alpine Floral Lavender Pandan wangi "
+          "deskripsi": "*Dupa Special kualitas wangi sedang. *Panjang dupa 28cm nyala -/+ 45 menit. *Kondisi dupa kering. *Abu tidak panas dikulit. *warna dupa natural. *Menggunakan minyak peruntukan dupa bakar (aman bagi kesehatan) *Diproduksi dari bahan baku sampai menjadi dupa kemasan sehingga kualitas dan peruntukan dupa terjamin. *Peruntukan : sembahayang, ritual, sesaji, benda* pusaka dan lainya. *Pilihan aroma : Canang sari  Canang wangi Cempaka Cendana Chandan Exotic Floral Himalaya Kelor Kenangga Mawar Melati Keraton Melati Raja Pudak wangi Romantic Sari batur Sari madu Teratai Vanila White angel Coklat Kopi Sakura Teh hijau Apel Anggur Alpine Floral Lavender Pandan wangi ",
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 15,
@@ -223,7 +224,10 @@
           ],
           "judul": "Dupa Special 252 gram basah tabung",
           "tipe": "Dupa Stik",
-          "harga": 45000
+          "harga": 45000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 16,
@@ -234,7 +238,10 @@
           ],
           "judul": "Dupa Special 504 gram",
           "tipe": "Dupa Stik",
-          "harga": 162000
+          "harga": 162000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 17,
@@ -245,7 +252,10 @@
           ],
           "judul": "Dupa Kering Natura 1kg",
           "tipe": "Dupa Stik",
-          "harga": 108000
+          "harga": 108000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 18,
@@ -256,7 +266,10 @@
           ],
           "judul": "Dupa Kering Warna 1kg",
           "tipe": "Dupa Stik",
-          "harga": 120000
+          "harga": 120000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 19,
@@ -286,7 +299,10 @@
           ],
           "judul": "Dupa Garcen 108 Batang",
           "tipe": "Dupa Stik",
-          "harga": 45000
+          "harga": 45000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 20,
@@ -295,7 +311,10 @@
           ],
           "judul": "Dupa SW 1kg Natural",
           "tipe": "Dupa Stik",
-          "harga": 54000
+          "harga": 54000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 21,
@@ -304,7 +323,10 @@
           ],
           "judul": "Dupa SW 1kg Warna",
           "tipe": "Dupa Stik",
-          "harga": 60000
+          "harga": 60000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 23,
@@ -313,7 +335,10 @@
           ],
           "judul": "Dupa Atma 108 Batang Gaharu",
           "tipe": "Dupa Stik",
-          "harga": 36000
+          "harga": 36000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 24,
@@ -322,7 +347,10 @@
           ],
           "judul": "Dupa Atma 108 Batang Menyan",
           "tipe": "Dupa Stik",
-          "harga": 40000
+          "harga": 40000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 25,
@@ -331,7 +359,10 @@
           ],
           "judul": "Dupa Atma 108 Batang Jempinang",
           "tipe": "Dupa Stik",
-          "harga": 45000
+          "harga": 45000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 26,
@@ -340,7 +371,10 @@
           ],
           "judul": "Dupa Atma 504gr Jempinang",
           "tipe": "Dupa Stik",
-          "harga": 63000
+          "harga": 63000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 27,
@@ -349,7 +383,10 @@
           ],
           "judul": "Dupa Atma 504gr Gaharu",
           "tipe": "Dupa Stik",
-          "harga": 63000
+          "harga": 63000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 28,
@@ -358,7 +395,10 @@
           ],
           "judul": "Dupa Atma 504gr Menyan",
           "tipe": "Dupa Stik",
-          "harga": 72000
+          "harga": 72000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 29,
@@ -367,7 +407,10 @@
           ],
           "judul": "Dupa Atma 504gr Jempinang",
           "tipe": "Dupa Stik",
-          "harga": 90000
+          "harga": 90000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 30,
@@ -376,7 +419,10 @@
           ],
           "judul": "Dupa Atma 504gr Kelor",
           "tipe": "Dupa Stik",
-          "harga": 72000
+          "harga": 72000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 31,
@@ -385,7 +431,10 @@
           ],
           "judul": "Dupa Atma 252gr Tabung - Gaharu",
           "tipe": "Dupa Stik",
-          "harga": 40000
+          "harga": 40000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 32,
@@ -394,7 +443,10 @@
           ],
           "judul": "Dupa Atma 252gr Tabung - Menyan",
           "tipe": "Dupa Stik",
-          "harga": 45000
+          "harga": 45000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 33,
@@ -403,7 +455,10 @@
           ],
           "judul": "Dupa Atma 252gr Tabung - Jempinang",
           "tipe": "Dupa Stik",
-          "harga": 54000
+          "harga": 54000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 34,
@@ -412,7 +467,10 @@
           ],
           "judul": "Dupa Atma 252gr Tabung - Kelor",
           "tipe": "Dupa Stik",
-          "harga": 45000
+          "harga": 45000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 35,
@@ -421,7 +479,10 @@
           ],
           "judul": "Dupa Dodol Gaharu",
           "tipe": "Dupa Pasta",
-          "harga": 72000
+          "harga": 72000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 36,
@@ -432,7 +493,10 @@
           ],
           "judul": "Dupa Menyan Wangi",
           "tipe": "Dupa Pasta",
-          "harga": 72000
+          "harga": 72000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 37,
@@ -443,7 +507,10 @@
           ],
           "judul": "Dupa Menyan Wangi",
           "tipe": "Dupa Pasta",
-          "harga": 72000
+          "harga": 72000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 38,
@@ -452,7 +519,10 @@
           ],
           "judul": "Pasta Menyan",
           "tipe": "Dupa Pasta",
-          "harga": 90000
+          "harga": 90000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 39,
@@ -463,7 +533,10 @@
           ],
           "judul": "Candu Putih Wangi",
           "tipe": "Dupa Pasta",
-          "harga": 120000
+          "harga": 120000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 40,
@@ -474,7 +547,10 @@
           ],
           "judul": "Candu Hitam Apel",
           "tipe": "Dupa Pasta",
-          "harga": 135000
+          "harga": 135000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 41,
@@ -485,7 +561,10 @@
           ],
           "judul": "Tael",
           "tipe": "Dupa Pasta",
-          "harga": 36000
+          "harga": 36000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 42,
@@ -509,7 +588,10 @@
           ],
           "judul": "Briket Lumpang",
           "tipe": "Dupa Pasta",
-          "harga": 72000
+          "harga": 72000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 44,
@@ -518,7 +600,10 @@
           ],
           "judul": "Dupa Seri 27 - Naga Kawi",
           "tipe": "Dupa Stik",
-          "harga": 21000
+          "harga": 21000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 45,
@@ -527,7 +612,10 @@
           ],
           "judul": "Dupa Seri 27 - Opium",
           "tipe": "Dupa Stik",
-          "harga": 21000
+          "harga": 21000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 46,
@@ -536,7 +624,10 @@
           ],
           "judul": "Dupa Seri 27 - Misik",
           "tipe": "Dupa Stik",
-          "harga": 21000
+          "harga": 21000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 47,
@@ -547,7 +638,10 @@
           ],
           "judul": "Dupa Seri 27 - Kasturi",
           "tipe": "Dupa Stik",
-          "harga": 21000
+          "harga": 21000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 48,
@@ -558,7 +652,10 @@
           ],
           "judul": "Dupa Seri 27 - KastCpbrauri",
           "tipe": "Dupa Stik",
-          "harga": 21000
+          "harga": 21000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 49,
@@ -569,7 +666,10 @@
           ],
           "judul": "Dupa Seri 27 - Kawi",
           "tipe": "Dupa Stik",
-          "harga": 21000
+          "harga": 21000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 50,
@@ -580,7 +680,10 @@
           ],
           "judul": "Dupa Seri 27 Tabung - Kawi",
           "tipe": "Dupa Stik",
-          "harga": 27000
+          "harga": 27000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 51,
@@ -591,7 +694,10 @@
           ],
           "judul": "Dupa Seri 27 Tabung - Opium",
           "tipe": "Dupa Stik",
-          "harga": 27000
+          "harga": 27000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 52,
@@ -602,7 +708,10 @@
           ],
           "judul": "Dupa Seri 27 Tabung - Misik",
           "tipe": "Dupa Stik",
-          "harga": 27000
+          "harga": 27000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 53,
@@ -613,7 +722,10 @@
           ],
           "judul": "Dupa Seri 27 Tabung - Kasturi",
           "tipe": "Dupa Stik",
-          "harga": 27000
+          "harga": 27000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 54,
@@ -624,7 +736,10 @@
           ],
           "judul": "Dupa Seri 27 Tabung - Cobra",
           "tipe": "Dupa Stik",
-          "harga": 27000
+          "harga": 27000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      },
      {
           "id": 55,
@@ -635,6 +750,9 @@
           ],
           "judul": "Dupa Seri 27 Tabung - Kawi",
           "tipe": "Dupa Stik",
-          "harga": 25000
+          "harga": 25000,
+          "tokped":"https://www.tokopedia.com/dupalo/",
+          "shopee": "www.shopee.com",
+          "bukalapak": "www.bukalapak.com"
      }
 ]

@@ -44,7 +44,7 @@ const testimonial = () => {
                   rotate: 20,
                   stretch: 0,
                   depth: 80,
-                  modifier: 2,
+                  modifier: 1,
                   slideShadows: false,
                 }}
                 pagination={true}
