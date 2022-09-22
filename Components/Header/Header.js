@@ -19,7 +19,7 @@ const Header = (props) => {
   const location = useRouter()
 
   return (
-    <Navbar className={style.nav} defaultActiveKey="/x">
+    <Navbar className={style.nav}>
       <Container>
         <Link href='/'><img src={'/logo.png'} className={style.logo} alt='logo-dupalo' /></Link>
         <Navbar.Toggle />

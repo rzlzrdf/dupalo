@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
+import { FiShoppingCart } from 'react-icons/fi'
 import style from './Label.module.css'
 import Link from 'next/link'
 
@@ -10,7 +11,7 @@ const Label = (props) => {
                <Card.Body>
                     <div>
                          <Card.Title className='mb-2'>{props.judul}</Card.Title>
-                         <Card.Title className={style.harga}>Rp. {' '} 
+                         <Card.Title className={style.harga}>Rp. {' '}
                               {new Intl.NumberFormat("id-ID", {
                                    currency: "IDR",
                               }).format(props.harga)}
@@ -19,7 +20,9 @@ const Label = (props) => {
                     </div>
                     <div className={'d-block gap-2'}>
                          <Link href={props.tokped}>
-                              <Button variant='secondary' className={style.tokped}><Image alt='' width={20} height={20} src='/brand/tokopedia.svg' />Pesan di Tokopedia</Button>
+                              <Button variant='secondary' className={style.tokped}>
+                                   <FiShoppingCart /> Pesan di Tokopedia
+                              </Button>
                          </Link>
                          {/* <Link href={'props.bukalapak'}>
                               <Button variant='secondary' className={style.bukalapak}><Image alt='' width={20} height={20}  src='/brand/bl.svg' />Bukalapak</Button>

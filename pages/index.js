@@ -6,14 +6,14 @@ import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
 import 'swiper/css';
 import { Card, Col, Container, Row, Accordion, Button } from 'react-bootstrap'
-import { AiFillCheckCircle } from 'react-icons/ai'
 import Link from 'next/link'
 import Testimonial from '../Components/Card/Testimonial'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
-import { BsWhatsapp } from 'react-icons/bs'
+import { BsWhatsapp, BsChevronDoubleDown } from 'react-icons/bs'
+import { AiFillCheckCircle } from 'react-icons/ai'
 import api from '../pages/api/Testimonial.json'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -34,28 +34,30 @@ export default function Home() {
         <Header />
       </header>
       <main className={styles.container}>
-        {/* <section id='hero'>
-        <Container>
-          <Row>
-            <Col>
-                <Swiper
-                // install Swiper modules
-                spaceBetween={50}
-                slidesPerView={1}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-              >
-                <SwiperSlide><img src='/hero.png'/></SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                ...
-              </Swiper>
-            </Col>
-          </Row>
-        </Container>
-      </section> */}
-        <section className={styles.hero2}>
+        <section id='hero' className={styles.hero}>
+          <Container>
+            <Row>
+              <Col lg={6} className={styles.hero11}>
+                <h1 className={styles.tagline}>Wangikan</h1>
+                <h1 className={styles.tagline2}>Nusantara</h1>
+              </Col>
+              <Col lg={6}>
+                <div className={styles.cards}>
+                  {/* <img src='' />
+                  <img src='' />
+                  <img src='' />
+                  <img src='' /> */}
+                </div>
+              </Col>
+              <Col lg={12}  className={styles.more}>
+                <a href={'/#2'}>
+                  <BsChevronDoubleDown size={50} />
+                </a>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section id={2} className={styles.hero2}>
           <Container>
             <Row>
               <Col lg={6} md={12} sm={12} className={'d-flex justify-content-center align-items-center'}>

@@ -35,6 +35,9 @@ const Produk = (props) => {
       <Container>
         {
           <>
+            <button type="button" onClick={() => router.back()} className={style.desktop}>
+              <IoChevronBack /> Kembali
+            </button>
             <Row>
               <Col lg={6} className={style.fotoproduk + ' mt-4'}>
                 <button type="button" onClick={() => router.back()} className={style.back}>
@@ -46,11 +49,6 @@ const Produk = (props) => {
               <Col lg={6} className={''}>
                 <Label judul={select ? select.judul : '..'} harga={select ? select.harga : ''} tokped={select ? select.tokped : '#'} />
                 <Deskripsi deskripsi={select ? select.deskripsi : '-'} />
-              </Col>
-            </Row>
-            <Row>
-              <Col lg={{ span: 6, offset: 6 }} className='mb-3'>
-
               </Col>
             </Row>
           </>

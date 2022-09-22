@@ -4,6 +4,32 @@
   text-decoration: none;
 }
 
+.hero{
+  min-height: 80vh;
+  margin: 0px 10px;
+}
+
+.hero11{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-bottom: 20vh;
+}
+.tagline{
+  margin-top: 15vh;
+  font-size: 6vw;
+  font-weight: lighter;
+}
+.tagline2{
+  font-size: 6vw;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+
+.more{
+  text-align: center;
+}
 .hero2 {
   min-height: 95vh;
   display: flex;
@@ -35,7 +61,7 @@
 }
 
 .cek {
-  font-size: 1em;
+  font-size: 16px;
   margin-right: 10px;
 }
 

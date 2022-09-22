@@ -16,6 +16,14 @@
      display: none;
 }
 
+.desktop{
+     width: fit-content;
+     margin-top: 18px;
+     background-color: transparent;
+     border: none;
+     position: relative;
+     bottom: -15px;
+}
 
 @media screen and (max-width: 425px) {
      .fotoproduk {
@@ -29,5 +37,9 @@
           cursor: pointer;
           display: flex;
           align-items: center;
+     }
+
+     .desktop{
+          display: none;
      }
 }

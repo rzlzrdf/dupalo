@@ -12,7 +12,6 @@ import 'react-medium-image-zoom/dist/styles.css'
 const CarouselProduk = (props) => {
 
      const pict = props.foto
-     console.log(pict)
      return (
           <Swiper navigation={true} pagination={true} modules={[Navigation, Pagination]} className={"mySwiper " + style.foto_container}>
                {pict.map(fotoproduk => {
@@ -29,10 +28,6 @@ const CarouselProduk = (props) => {
                          </SwiperSlide>
                     )
                })}
-               {/* <SwiperSlide><img src='/gold/1.jpg' className={style.itemfoto} /></SwiperSlide>
-               <SwiperSlide>Slide 2</SwiperSlide>
-               <SwiperSlide>Slide 3</SwiperSlide>
-               <SwiperSlide>Slide 4</SwiperSlide> */}
           </Swiper>
      )
 }
