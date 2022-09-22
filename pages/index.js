@@ -43,10 +43,10 @@ export default function Home() {
               </Col>
               <Col lg={6} className='d-flex justify-content-center align-items-center'>
                 <div className={styles.cards}>
-                  <img src='/1.jpg' className={styles.gold}/>
-                  <img src='/2.jpg' className={styles.premium}/>
-                  <img src='/3.jpg' className={styles.special}/>
-                  <img src='/4.jpg' className={styles.atma}/>
+                  <img src='/1.jpg' className={styles.gold} alt='Gentong 3 Dupa Gold Series' />
+                  <img src='/2.jpg' className={styles.premium} alt='Gentong 3 Dupa Premium Series' />
+                  <img src='/3.jpg' className={styles.special} alt='Gentong 3 Dupa Special Series' />
+                  <img src='/4.jpg' className={styles.atma} alt='Atma Series' />
                 </div>
               </Col>
               <Col lg={12}  className={styles.more}>
@@ -137,7 +137,7 @@ export default function Home() {
                 <h3 className='fw-bold text-center'>Partner Kami</h3>
               </Col>
               <Col lg={12} className={'d-flex justify-content-center my-4 gap-3 flex-wrap'}>
-                <img src='/brand/krisna.png' width={100} height={55} alt='' />
+                <img src='/brand/krisna.png' width={100} height={55} alt='Krisna Logo' />
                 <img src='/brand.png' width={100} height={55} alt='' />
               </Col>
               <Col lg={12} className={'d-flex justify-content-center mb-2 gap-3 flex-wrap'}>
