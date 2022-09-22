@@ -51,7 +51,7 @@ export default function Home() {
               </Col>
               <Col lg={12}  className={styles.more}>
                 <a href={'/#2'}>
-                  <BsChevronDoubleDown size={50} />
+                  <BsChevronDoubleDown className={styles.chevron}/>
                 </a>
               </Col>
             </Row>

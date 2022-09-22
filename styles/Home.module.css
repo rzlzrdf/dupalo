@@ -54,6 +54,12 @@
 .more{
   text-align: center;
 }
+
+.chevron{
+  font-size: 4vw;
+  color: black;
+}
+
 .hero2 {
   min-height: 95vh;
   display: flex;
@@ -153,6 +159,24 @@
 }
 
 @media screen and (max-width: 992px) {
+
+  .hero11{
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 0px;
+  }
+
+  .tagline,.tagline2{
+    font-size: 3em;
+  }
+
+  .cards{
+    margin-bottom: 10%;
+  }
+
+  .chevron{
+    font-size: 30px;
+  }
   .hero2 {
     padding: 0 5%;
     padding-bottom: 30px;
