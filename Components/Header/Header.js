@@ -26,8 +26,8 @@ const Header = (props) => {
         <Navbar.Collapse className={"justify-content-end align-items-center gap-4 " + style.nav_item}>
           <Link href='/'><a className={location.pathname == '/' ? style.active : style.links}>Beranda</a></Link>
           <Link href='/katalog'><a className={location.pathname == '/katalog' ? style.active : style.links}>Katalog</a></Link>
-          <Link href='/#testimonial' className={style.links}>Testimonial</Link>
-          <Link href='/#faq' className={style.links}>FAQ</Link>
+          <Link href='/#testimonial'>Testimonial</Link>
+          <Link href='/#faq'>FAQ</Link>
           <Form.Select aria-label="Default select example" className={style.lang}>
             <option value="1">ID</option>
             <option value="2">EN</option>
