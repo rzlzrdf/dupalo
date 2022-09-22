@@ -15,6 +15,30 @@
   align-items: end;
   margin-bottom: 20vh;
 }
+
+.cards{
+  max-width: 65%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.gold{
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-top-left-radius: 30px;
+}
+.premium{
+  width: 100%;
+}
+.special{
+  width: 100%;
+}
+.atma{
+  width: 100%;
+  border-bottom-right-radius: 30px;
+}
+
 .tagline{
   margin-top: 15vh;
   font-size: 6vw;
