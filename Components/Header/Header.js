@@ -23,8 +23,8 @@ const Header = (props) => {
       <Container>
         <Link href='/'><img src={'/logo.png'} className={style.logo} alt='logo-dupalo' /></Link>
         <Navbar.Toggle />
-        <Navbar.Collapse className={"justify-content-end align-items-center gap-4 " + style.links}>
-          <Link href='/'><a className={location.pathname == '/' ? style.active : style.links}>Beranda</a></Link>
+        <Navbar.Collapse className={"justify-content-end align-items-center gap-4 " + style.nav_item}>
+          <Link href='/'><a className={location.pathname == '/' ? style.active : style.link}>Beranda</a></Link>
           <Link href='/katalog'><a className={location.pathname == '/katalog' ? style.active : style.links}>Katalog</a></Link>
           <Link href='/#testimonial' className={location.pathname == '/#testimonial' ? style.active : style.links}>Testimonial</Link>
           <Link href='/#faq' className={location.pathname == '/#faq' ? style.active : style.links}>FAQ</Link>

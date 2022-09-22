@@ -1,4 +1,4 @@
-.links{
+.nav_item{
      text-decoration: none;
 }
 .logo{
@@ -6,10 +6,16 @@
      cursor: pointer;
 }
 
+.links{
+     text-decoration: none;
+     color: black;
+}
+
 .active{
      font-size: 15px;
      color: #F1D00A;
      font-weight: 700;
+     text-decoration: none;
 }
 
 .nav{
@@ -47,7 +53,7 @@
           width: 30px;
      }
      
-     .links a{
+     .nav_item a{
           display: none;
      }
 
@@ -55,7 +61,7 @@
           width: 35px;
      }
      
-     .links select{
+     .nav_item select{
           display: none;
      }
 }
