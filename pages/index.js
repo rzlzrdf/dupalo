@@ -167,7 +167,7 @@ export default function Home() {
               <Col lg={4} className={'d-flex flex-column justify-content-evenly ' + style.tulisan}>
                 <h3 className='fw-bold'>Tanya Jawab</h3>
                 <p>Berikut merupakan pertanyaan yang sering diajukan atau Ajukan pertanyaanmu seputar Dupalo kepada admin kami melalui Whatsapp Center kami dibawah ini</p>
-                <Button className={style.wa}><a href='https://api.whatsapp.com/send?phone=6281382575758'><BsWhatsapp /> Whatsapp</a></Button>
+                <Button variant='success' className={styles.wa}><a href='https://api.whatsapp.com/send?phone=6281382575758'><BsWhatsapp /> Whatsapp</a></Button>
               </Col>
               <Col lg={8}>
                 <Accordion defaultActiveKey="0" className={style.item}>

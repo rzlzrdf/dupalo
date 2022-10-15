@@ -29,9 +29,7 @@
      text-decoration: none;
      font-weight: bold;
      color: white;
-}
-.nav .link{
-     color: white;
+     cursor: pointer;
 }
 
 

@@ -17,10 +17,10 @@ const Footer = () => {
                     </Col>
                     <Col>
                          <div className={style.nav}>
-                              <Link className={style.link} href='/'>Beranda</Link>
-                              <Link className={style.link} href='/katalog'>Katalog</Link>
-                              <Link className={style.link} href='/testimonial'>Testimonial</Link>
-                              <Link className={style.link} href='/faq'>FAQ</Link>
+                              <Link href='/'><p>Beranda</p></Link>
+                              <Link href='/katalog'><p>Katalog</p></Link>
+                              <Link href='/testimonial'><p>Testimonial</p></Link>
+                              <Link href='/faq'><p>FAQ</p></Link>
                          </div>
                     </Col>
                     <Col>

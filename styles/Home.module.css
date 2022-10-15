@@ -162,6 +162,15 @@
   border: none;
 }
 
+.wa{
+  background-color: white;
+  border: 1px solid #25D366;
+  border-radius: 20px;
+}
+.wa a{
+  color: black;
+}
+
 @media screen and (max-width: 992px) {
 
   .hero11{
