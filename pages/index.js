@@ -38,8 +38,8 @@ export default function Home() {
           <Container>
             <Row>
               <Col lg={6} className={styles.hero11}>
-                <h1 className={styles.tagline}>Wangikan</h1>
-                <h1 className={styles.tagline2}>Nusantara</h1>
+                <h1 className={styles.heading}>Dupalo Pusat</h1>
+                <h2>#WangikanNusantara</h2>
               </Col>
               <Col lg={6} className='d-flex justify-content-center align-items-center'>
                 <div className={styles.cards}>

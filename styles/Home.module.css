@@ -39,12 +39,8 @@
   border-bottom-right-radius: 30px;
 }
 
-.tagline{
+.heading{
   margin-top: 15vh;
-  font-size: 6vw;
-  font-weight: lighter;
-}
-.tagline2{
   font-size: 6vw;
   font-weight: bolder;
   display: flex;
@@ -183,8 +179,8 @@
     margin-bottom: 5%;
     margin-top: 0px;
   }
-
-  .tagline,.tagline2{
+ 
+  .heading{
     font-size: 3em;
   }
 
