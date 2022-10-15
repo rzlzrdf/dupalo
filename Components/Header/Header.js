@@ -44,8 +44,8 @@ const Header = (props) => {
           <Offcanvas.Body className='d-flex justify-content-start flex-column gap-5 fs-lg-6 fs-sm-4 fw-bold m-4'>
           <Link href='/'><a className={location.pathname == '/' ? style.active : style.links}>Beranda</a></Link>
           <Link href='/katalog'><a className={location.pathname == '/katalog' ? style.active : style.links}>Katalog</a></Link>
-          <Link href='/#testimonial' className={location.pathname == '/#testimonial' ? style.active : style.links}>Testimonial</Link>
-          <Link href='/#faq' className={location.pathname == '/#faq' ? style.active : style.links}>FAQ</Link>
+          <Link href='/#testimonial'><a className={location.pathname == '/katalog' ? style.active : style.links}>Testimonials</a></Link>
+          <Link href='/#faq'><a className={location.pathname == '/katalog' ? style.active : style.links}>FAQ</a></Link>
             <div className='d-flex justify-content-center gap-4 mt-4'>
               <Link href='#'><img src='/indonesia.png' alt='id' className={style.languange} /></Link>
               <Link href='#'><img src='/uk.png' alt='uk' className={style.languange} /></Link>
