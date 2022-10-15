@@ -26,9 +26,13 @@
      display: flex;
      flex-direction: column;
      gap: 10px;
-     color: #fafafa;
      text-decoration: none;
      font-weight: bold;
+}
+
+.nav .link{
+     text-decoration: none;
+     color: #f1d00a;
 }
 
 .social{

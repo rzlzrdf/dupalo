@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dupalo | Homepage</title>
+        <title>Dupalo Pusat</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="description" content="Dupalo Official Website" />
         <link rel="icon" href="/logo.png" />
