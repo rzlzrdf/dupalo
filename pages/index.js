@@ -39,7 +39,7 @@ export default function Home() {
             <Row>
               <Col lg={6} className={styles.hero11}>
                 <h1 className={styles.heading}>Dupalo Pusat</h1>
-                <h2 className='fw-light text-muted'>#WangikanNusantara</h2>
+                <h2 className='text-muted'>#WangikanNusantara</h2>
               </Col>
               <Col lg={6} className='d-flex justify-content-center align-items-center'>
                 <div className={styles.cards}>
