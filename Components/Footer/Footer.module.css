@@ -28,16 +28,17 @@
      gap: 10px;
      text-decoration: none;
      font-weight: bold;
+     color: white;
+}
+.nav .link{
+     color: white;
 }
 
-.nav .link{
-     text-decoration: none;
-     color: #f1d00a;
-}
 
 .social{
      font-size: 2em;
      display: flex;
      gap: 5%;
+     cursor: pointer;
 }
 

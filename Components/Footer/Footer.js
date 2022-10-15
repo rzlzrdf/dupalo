@@ -15,18 +15,20 @@ const Footer = () => {
                          <p>dupalo@gmail.com</p>
                          <p>081-233-334-808</p>
                     </Col>
-                    <Col className={style.nav}>
-                         <Link className={style.link} href='/'>Beranda</Link>
-                         <Link className={style.link} href='/katalog'>Katalog</Link>
-                         <Link className={style.link} href='/testimonial'>Testimonial</Link>
-                         <Link className={style.link} href='/faq'>FAQ</Link>
+                    <Col>
+                         <div className={style.nav}>
+                              <Link className={style.link} href='/'>Beranda</Link>
+                              <Link className={style.link} href='/katalog'>Katalog</Link>
+                              <Link className={style.link} href='/testimonial'>Testimonial</Link>
+                              <Link className={style.link} href='/faq'>FAQ</Link>
+                         </div>
                     </Col>
                     <Col>
                          <p>Social Media Kami</p>
                          <div className={style.social}>
-                              <Link className={style.link} href='#'><AiFillFacebook /></Link>
-                              <Link className={style.link} href='#'><AiOutlineInstagram /></Link>
-                              <Link className={style.link} href='#'><AiOutlineWhatsApp /></Link>
+                              <Link className={style.link} href='https://m.facebook.com/dupalopusat'><AiFillFacebook /></Link>
+                              <Link className={style.link} href='https://www.instagram.com/dupalo_pusat/'><AiOutlineInstagram /></Link>
+                              <Link className={style.link} href='https://api.whatsapp.com/send?phone=6281382575758'><AiOutlineWhatsApp /></Link>
                               <Link className={style.link} href='#'><AiOutlineMail /></Link>
                          </div>
                     </Col>
