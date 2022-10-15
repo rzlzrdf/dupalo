@@ -155,7 +155,7 @@ export default function Home() {
                 <Card className={styles.find_card}>
                   <h3 className='fw-bold'>Cari Produk Dupa</h3>
                   <p>Klik tombol dibawah ini untuk melihat produk dupa favorit dan kesayanganmu dibawah ini</p>
-                  <Link href={'/katalog'}>Lihat Produk</Link>
+                  <Link href={'/katalog'}><a className={styles.lihat}>Lihat Produk</a></Link>
                 </Card>
               </Col>
             </Row>

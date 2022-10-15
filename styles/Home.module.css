@@ -161,14 +161,19 @@
   background-color: #FFDE00;
   border: none;
 }
-
+.lihat{
+  text-decoration: none;
+  color: white;
+}
 .wa{
   background-color: white;
   border: 1px solid #25D366;
   border-radius: 20px;
+  text-decoration: none;
 }
 .wa a{
   color: black;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 992px) {
