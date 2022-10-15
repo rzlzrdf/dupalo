@@ -96,9 +96,26 @@
      {
           "id": 7,
           "foto": [
-               "/premium/100 (1).jpg",
-               "/premium/100 (2).jpg",
-               "/premium/100 (3).jpg"
+               "/special/108 (1).jpg",
+               "/special/108 (2).jpg",
+               "/special/108 (3).jpg",
+               "/special/108 (4).jpg",
+               "/special/108 (5).jpg",
+               "/special/108 (6).jpg",
+               "/special/108 (7).jpg",
+               "/special/108 (8).jpg",
+               "/special/108 (9).jpg",
+               "/special/108 (10).jpg",
+               "/special/108 (11).jpg",
+               "/special/108 (12).jpg",
+               "/special/108 (13).jpg",
+               "/special/108 (14).jpg",
+               "/special/108 (15).jpg",
+               "/special/108 (16).jpg",
+               "/special/108 (17).jpg",
+               "/special/108 (18).jpg",
+               "/special/108 (19).jpg",
+               "/special/108 (20).jpg"
           ],
           "judul": "Dupa Premium 108 Batang",
           "tipe": "Dupa Stik",
@@ -109,25 +126,10 @@
      {
           "id": 8,
           "foto": [
-               "/special/9 (1).jpg",
-               "/special/9 (5).jpg",
-               "/special/9 (6).jpg",
-               "/special/9 (7).jpg",
-               "/special/9 (8).jpg",
-               "/special/9 (9).jpg",
-               "/special/9 (10).jpg",
-               "/special/9 (11).jpg",
-               "/special/9 (12).jpg",
-               "/special/9 (14).jpg",
-               "/special/9 (15).jpg",
-               "/special/9 (16).jpg",
-               "/special/9 (17).jpg",
-               "/special/9 (18).jpg",
-               "/special/9 (19).jpg",
-               "/special/9 (20).jpg",
-               "/special/9 (21).jpg",
-               "/special/9 (22).jpg",
-               "/special/9 (23).jpg"
+               "/special/t (14).jpg",
+               "/special/t (15).jpg",
+               "/special/t (16).jpg",
+               "/special/t (17).jpg"
           ],
           "judul": "Dupa Special 504 Batang - Kering",
           "tipe": "Dupa Stik",
@@ -138,9 +140,9 @@
      {
           "id": 9,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/t (11).jpg",
+               "/special/t (12).jpg",
+               "/special/t (13).jpg"
           ],
           "judul": "Dupa Special 504 Batang - Basah",
           "tipe": "Dupa Stik",
@@ -153,8 +155,7 @@
           "id": 10,
           "foto": [
                "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/gold/1.jpg"
           ],
           "judul": "Dupa Kerucut 27 Batang",
           "tipe": "Dupa Kerucut",
@@ -228,9 +229,11 @@
      {
           "id": 15,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/t (2).jpg",
+               "/special/t (3).jpg",
+               "/special/t (4).jpg",
+               "/special/t (5).jpg",
+               "/special/t (6).jpg"
           ],
           "judul": "Dupa Special 252 gram basah tabung",
           "tipe": "Dupa Stik",
@@ -241,9 +244,12 @@
      {
           "id": 16,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/t (2).jpg",
+               "/special/t (3).jpg",
+               "/special/t (4).jpg",
+               "/special/t (5).jpg",
+               "/special/t (6).jpg"
+               
           ],
           "judul": "Dupa Special 504 gram",
           "tipe": "Dupa Stik",
@@ -268,9 +274,7 @@
      {
           "id": 18,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/special/war.jpg"
           ],
           "judul": "Dupa Kering Warna 1kg",
           "tipe": "Dupa Stik",
@@ -324,7 +328,7 @@
      {
           "id": 21,
           "foto": [
-               "/special/nat.jpg"
+               "/special/war.jpg"
           ],
           "judul": "Dupa SW 1kg Warna",
           "tipe": "Dupa Stik",
@@ -480,21 +484,6 @@
           "deskripsi": "*Dupa kualitas wangi menyan madu alami *Panjang dupa 28cm *Kondisi dupa kering. *warna dupa natural. *Menggunakan menyan madu / mata kemenyan super grade A kualitas ekspor *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan : Sembahayang, ritual, sesaji, benda* pusaka dan lainya."
      },
      {
-          "id": 36,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
-          "judul": "Dupa Menyan Wangi",
-          "tipe": "Dupa Pasta",
-          "harga": 72000,
-          "tokped":"https://www.tokopedia.com/dupalo/",
-          "shopee": "www.shopee.com",
-          "bukalapak": "www.bukalapak.com",
-          "deskripsi": "*Dupa kualitas wangi menyan madu alami *Panjang dupa 28cm *Kondisi dupa kering. *warna dupa natural. *Menggunakan menyan madu / mata kemenyan super grade A kualitas ekspor *Diproduksi bahan baku hingga jadi sehingga mengetahui kualitas dupa, tidak tangan kedua. *Peruntukan : Sembahayang, ritual, sesaji, benda* pusaka dan lainya."
-     },
-     {
           "id": 37,
           "foto": [
                "/special/pasta.jpg"
@@ -534,9 +523,7 @@
      {
           "id": 40,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/atma/tael.jpg"
           ],
           "judul": "Tael",
           "tipe": "Dupa Pasta",
@@ -547,8 +534,7 @@
      {
           "id": 41,
           "foto": [
-               "/special/bulat.jpg"
-               
+               "/special/bulat.jpg"     
           ],
           "judul": "Briket Bulat",
           "tipe": "Dupa Pasta",
@@ -559,9 +545,7 @@
      {
           "id": 42,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "atma/lumpang.jpg"
           ],
           "judul": "Briket Lumpang",
           "tipe": "Dupa Pasta",
@@ -583,7 +567,7 @@
      {
           "id": 44,
           "foto": [
-               "/seri27/s (7).jpg"
+               "/seri27/all.jpg"
           ],
           "judul": "Dupa Seri 27 - Opium",
           "tipe": "Dupa Stik",
@@ -594,7 +578,7 @@
      {
           "id": 45,
           "foto": [
-               "/seri27/s (7).jpg"
+               "/seri27/all.jpg"
           ],
           "judul": "Dupa Seri 27 - Misik",
           "tipe": "Dupa Stik",
@@ -618,11 +602,9 @@
      {
           "id": 47,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/seri27/all.jpg"
           ],
-          "judul": "Dupa Seri 27 - KastCpbrauri",
+          "judul": "Dupa Seri 27 - Kasturi",
           "tipe": "Dupa Stik",
           "harga": 21000,
           "tokped":"https://www.tokopedia.com/dupalo/",
@@ -631,9 +613,7 @@
      {
           "id": 48,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/seri27/all.jpg"
           ],
           "judul": "Dupa Seri 27 - Kawi",
           "tipe": "Dupa Stik",

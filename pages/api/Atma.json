@@ -37,123 +37,95 @@
      {
           "id": 28,
           "foto": "/atma/504 (3).jpg",
-          "judul": "Dupa Atma 504gr Menyan",
+          "judul": "Dupa Atma 504gr Jempinang",
           "tipe": "Dupa Stik",
           "harga": 72000
      },
      {
           "id": 29,
           "foto": "/atma/504 (1).jpg",
-          "judul": "Dupa Atma 504gr Jempinang",
+          "judul": "Dupa Atma 504gr Kelor",
           "tipe": "Dupa Stik",
           "harga": 90000
      },
      {
           "id": 30,
           "foto": "/atma/504 (2).jpg",
-          "judul": "Dupa Atma 504gr Kelor",
+          "judul": "Dupa Atma 504gr Gaharu",
           "tipe": "Dupa Stik",
           "harga": 72000
      },
      {
           "id": 31,
           "foto": "/atma/252 (1).jpg",
-          "judul": "Dupa Atma 252gr Tabung - Gaharu",
+          "judul": "Dupa Atma 252gr Tabung - Menyan",
           "tipe": "Dupa Stik",
           "harga": 40000
      },
      {
           "id": 32,
           "foto": "/atma/252 (4).jpg",
-          "judul": "Dupa Atma 252gr Tabung - Menyan",
+          "judul": "Dupa Atma 252gr Tabung - Jempinang",
           "tipe": "Dupa Stik",
           "harga": 45000
      },
      {
           "id": 33,
           "foto": "/atma/252 (4).jpg",
-          "judul": "Dupa Atma 252gr Tabung - Jempinang",
+          "judul": "Dupa Atma 252gr Tabung - Kelor",
           "tipe": "Dupa Stik",
           "harga": 54000
      },
      {
           "id": 34,
           "foto": "/atma/252 (2).jpg",
-          "judul": "Dupa Atma 252gr Tabung - Kelor",
+          "judul": "Dupa Dodol Gaharu",
           "tipe": "Dupa Stik",
-          "harga": 45000
+          "harga": 72000
      },
      {
           "id": 35,
           "foto": "/atma/g.jpg",
-          "judul": "Dupa Dodol Gaharu",
-          "tipe": "Dupa Pasta",
-          "harga": 72000
-     },
-     {
-          "id": 36,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
           "judul": "Dupa Menyan Wangi",
           "tipe": "Dupa Pasta",
           "harga": 72000
      },
      {
           "id": 37,
-          "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
-          ],
-          "judul": "Dupa Menyan Wangi",
-          "tipe": "Dupa Pasta",
-          "harga": 72000
-     },
-     {
-          "id": 38,
           "foto": "/special/pasta.jpg",
           "judul": "Pasta Menyan",
           "tipe": "Dupa Pasta",
           "harga": 90000
      },
      {
-          "id": 39,
+          "id": 38,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/gold/2.jpg"
           ],
           "judul": "Candu Putih Wangi",
           "tipe": "Dupa Pasta",
           "harga": 120000
      },
      {
-          "id": 40,
+          "id": 39,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "/gold/2.jpg"
           ],
           "judul": "Candu Hitam Apel",
           "tipe": "Dupa Pasta",
           "harga": 135000
      },
      {
-          "id": 41,
+          "id": 40,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "atma/tael.jpg"
           ],
           "judul": "Tael",
           "tipe": "Dupa Pasta",
           "harga": 36000
      },
      {
-          "id": 42,
+          "id": 41,
           "foto": [
                "/special/bulat.jpg"
           ],
@@ -164,9 +136,7 @@
      {
           "id": 43,
           "foto": [
-               "/gold/2.jpg",
-               "/gold/1.jpg",
-               "contributor"
+               "atma/lumpang.jpg"
           ],
           "judul": "Briket Lumpang",
           "tipe": "Dupa Pasta",
