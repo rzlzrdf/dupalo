@@ -21,7 +21,7 @@ const Header = (props) => {
   return (
     <Navbar className={style.nav}>
       <Container>
-        <Link href='/'><img src={'/logo.png'} className={style.logo} alt='logo-dupalo' /></Link>
+        <Link href='/'><img src={'/logo.png'} className={style.logo} alt='dupalo pusat' /></Link>
         <Navbar.Toggle />
         <Navbar.Collapse className={"justify-content-end align-items-center gap-4 " + style.nav_item}>
           <Link href='/'><a className={location.pathname == '/' ? style.active : style.links}>Beranda</a></Link>
