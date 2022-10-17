@@ -162,14 +162,18 @@
   color: white;
 }
 .wa{
-  background-color: white;
   border: 1px solid #25D366;
   background-color: #25D366;
   border-radius: 20px;
   text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 7px 0px ;
 }
-.wa a{
+.wa:hover{
   color: black;
+  background-color: transparent;
+  border: 1px solid #25D366;
   text-decoration: none;
 }
 

@@ -2,7 +2,8 @@
 import Link from 'next/link'
 import React from 'react'
 import style from './Footer.module.css'
-import { AiOutlineInstagram, AiFillFacebook, AiOutlineWhatsApp, AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineInstagram, AiFillFacebook } from 'react-icons/ai'
+import { SiTiktok, SiYoutube } from 'react-icons/si'
 import { Col, Container, Row } from 'react-bootstrap'
 
 const Footer = () => {
@@ -28,8 +29,8 @@ const Footer = () => {
                          <div className={style.social}>
                               <Link className={style.link} href='https://m.facebook.com/dupalopusat'><AiFillFacebook /></Link>
                               <Link className={style.link} href='https://www.instagram.com/dupalo_pusat/'><AiOutlineInstagram /></Link>
-                              <Link className={style.link} href='https://api.whatsapp.com/send?phone=6281382575758'><AiOutlineWhatsApp /></Link>
-                              <Link className={style.link} href='#'><AiOutlineMail /></Link>
+                              <Link className={style.link} href='https://www.youtube.com/channel/UCmmrKEOMUCyVBsbu1_eHDHQ'><SiYoutube /></Link>
+                              <Link className={style.link} href='https://www.tiktok.com/@dupalopusat'><SiTiktok /></Link>
                          </div>
                     </Col>
                     <Col>
